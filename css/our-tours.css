@@ -1,5 +1,29 @@
 /* Pavlo second page start*/
+
+#section{
+    background-color: black;  
+    color: white; 
+}
+.div-title{
+    color: yellow;
+
+}
 /* Pavlo second page end*/
 /* Tanya Tkach second page start*/
-
+.logo-page-two {
+    color: yellow;
+    font-size: 50px;
+    text-align: center; 
+}
+.text-page-two {
+      text-align: center; 
+}
+.column-page-two {
+    color: yellow;
+    font-size:40px;
+}
+.yellow-text {
+    color: yellow;
+    font-size:45px;
+}
 /*Tanya Tkach second page end*/
