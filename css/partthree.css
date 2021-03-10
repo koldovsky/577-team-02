@@ -1,3 +1,4 @@
+/* Sasha block start */
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Roboto&display=swap');
 
 .large-image {
@@ -45,6 +46,9 @@
     font-family: Roboto, sans-serif;
     text-align: center; 
 }
+.white-part {
+    background-color: #ffffff;
+}
 h6 {
     font-size: 48px;
     font-weight: 700;
@@ -63,3 +67,4 @@ h7 {
     color: #6e6e6e;    
     font-family: Roboto, "sans-serif"; 
 }
+/* Sasha block end */
