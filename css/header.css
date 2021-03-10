@@ -23,9 +23,13 @@ h1 {
 }
 .logo-main {
    font-size: 50px; 
-   background-color: white;
+  
 }
 header {
    background-color: lightskyblue;
 }
+.white-color {
+    background-color: white;
+}
+
 /* Tanya Tkach end block */
