@@ -23,9 +23,39 @@
 }
 /* Sasha second page start */
 
+/*Taras start*/
+#itinerary{
+    background-color: grey;
+}
+.h-itinerary{
+    font-family: Dosis, sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.itinerary-day{
+    font-family: Dosis, sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.itinerary-description{
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.itinerary-img{
+    height: 400px;
+    width: 470px;
+}
+/*Taras end*/
+
 /* Pavlo second page start*/
-#saction{
-    padding: 5em;
+header{
+    background-color: cornsilk;
+}
+body{
+    background-color: black;
+}
+.saction{
     background-color: black;  
     color: white;     
 }
@@ -36,6 +66,7 @@
     color: #f1c324;
 font-size: 25px;
 }
+
 .carousel-block{
     font-size: 50px;
     color: #f1c324;
@@ -44,3 +75,27 @@ font-size: 25px;
 }
 
 /* Pavlo second page end*/
+
+/* Tanya Tkach second page start*/
+.logo-page-two {
+    color: yellow;
+    font-size: 50px;
+    text-align: center; 
+}
+.text-page-two {
+      text-align: center; 
+      color: white;
+}
+.column-page-two {
+    color: white;
+    font-size:40px;
+}
+.yellow-text {
+    color: yellow;
+    font-size:45px;
+}
+.black-fon {
+    background-color: black;
+}
+/*Tanya Tkach second page end*/
+
