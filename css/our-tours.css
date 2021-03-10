@@ -23,6 +23,31 @@
 }
 /* Sasha second page start */
 
+/*Taras start*/
+#itinerary{
+    background-color: grey;
+}
+.h-itinerary{
+    font-family: Dosis, sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.itinerary-day{
+    font-family: Dosis, sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.itinerary-description{
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.itinerary-img{
+    height: 400px;
+    width: 470px;
+}
+/*Taras end*/
+
 /* Pavlo second page start*/
 
 #section{
