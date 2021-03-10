@@ -1,3 +1,7 @@
+/*-- Pavlo parts start */
+body{
+    background-color:black;
+}
 .our-tours{
     background-color: black;
 text-align: center;
@@ -6,13 +10,14 @@ text-align: center;
     color: yellow;
     text-align: center;
     background-color: black;
-    font-size: 50px;
+    font-size: 65px;
+     font-family:Dancing Script ;
 }
 
 p{
     text-align: center;
     color: gray;
-    font-size: 16px;
+    font-size: 18px;
 }
 .price{
     color: yellow;
@@ -24,7 +29,7 @@ font-size: 20px;
     text-align: center;
     font-size: 30px;
 }
-.image-corusels{
+.image-carousels{
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -39,5 +44,8 @@ color: white;
     background-color: orange;
     text-align: center;
     font-size: large;
+    }
+/* Pavlo parts end*/
+
     
-}
+
