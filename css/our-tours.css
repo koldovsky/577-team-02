@@ -33,8 +33,14 @@
     font-size: 16px;
 }
 .div-title{
-    color: yellow;
+    color: #f1c324;
 font-size: 25px;
+}
+.carousel-block{
+    font-size: 50px;
+    color: #f1c324;
+    text-align: center;
+    background-color: black;
 }
 
 /* Pavlo second page end*/
