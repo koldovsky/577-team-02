@@ -1,4 +1,7 @@
 /*-- Pavlo parts start */
+body{
+    background-color:black;
+}
 .our-tours{
     background-color: black;
 text-align: center;
@@ -7,7 +10,8 @@ text-align: center;
     color: yellow;
     text-align: center;
     background-color: black;
-    font-size: 50px;
+    font-size: 65px;
+     font-family:Dancing Script ;
 }
 
 p{
@@ -40,11 +44,8 @@ color: white;
     background-color: orange;
     text-align: center;
     font-size: large;
-    color: black;
-}
-.sale-title{
-    font-size: 100px;
-}
-
-
+    }
 /* Pavlo parts end*/
+
+    
+
