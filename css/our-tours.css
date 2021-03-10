@@ -24,12 +24,18 @@
 /* Sasha second page start */
 
 /* Pavlo second page start*/
-#section{
+.info-block{
+    
+    padding: 5em;
     background-color: black;  
-    color: white; 
+    color: white;     
+}
+.info{
+    font-size: 16px;
 }
 .div-title{
     color: yellow;
-
+font-size: 25px;
 }
+
 /* Pavlo second page end*/
