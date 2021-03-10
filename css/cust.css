@@ -1,0 +1,35 @@
+/*-- Mariana's Block Start */
+#block-left{
+    float: left;
+    display: block;
+    width: 300px;
+}
+#block-right{
+float: left;
+display: block;
+width: 300px;
+}
+.customers-section { 
+    background-color: white;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    color: black;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+.customers-headline {
+    font-weight: bold;
+}
+.customers-text {
+    font-size: 20px;
+}
+.customers-name {
+    font-size: 25px;
+    font-weight: bold;
+}  
+.color-text {
+    color: blue;
+    font-size: 15px;
+}
+.ready-section {background: url(img-carousel/maidan.jpg);}
