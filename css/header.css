@@ -1,0 +1,30 @@
+/* Tanya Tkach block start */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.logo-header {
+    color: white;
+    font-size: 30px;
+}
+.menu {
+   color: rgb(216, 188, 30);
+   font-size: 20px;
+}
+h1 {
+     color: yellow;
+      font-size: 160px;
+      font-family:Dancing Script ;
+      text-align: center;
+}
+.text-header {
+    color: yellow;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+.logo-main {
+   font-size: 50px; 
+}
+header {
+   background-color: lightskyblue;
+}
+/* Tanya Tkach end block */
