@@ -52,19 +52,21 @@ header{
 body{
     background-color: black;
 }
-.saction{
+.box-container {
     background-color: black;  
     color: white;     
-}
-.info{
-    font-size: 16px;
-}
-.div-title{
-    color: #f1c324;
-font-size: 25px;
+    display: flex;
+    padding: 10em;
+     font-size: 20px;
+    line-height: 200%;
 }
 
-.carousel-block{
+.div-title{
+    color: #f1c324;
+font-size: 30px;
+}
+
+.carousel-title{
     font-size: 50px;
     color: #f1c324;
     text-align: center;
