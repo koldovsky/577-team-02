@@ -1,23 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 /* Sasha second page start */
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Roboto&display=swap');
-.logo {
+header .banner {
+    background-image: url(../img/prypyat-bg-secondpage.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header {
     font-size: 25px;
     font-weight: 700;
     color: #f1c324;    
+    font-family: Dosis, sans-serif;  
+}
+.header-two {
+    font-size: 19px;
+    font-weight: 500;
+    color: #f1c324;    
     font-family: Dosis, sans-serif;
+    position: relative;
+    left: 1080px;
+    bottom: 100px;
+    }
+header .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    align-items: center;
 }
-.menu {
+header .menu a{
+    text-decoration: none;
+    color: #f1c324; 
     font-size: 16px;
     font-weight: 700;
-    color: #f1c324;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif;  
 }
-.menu a {
-    font-size: 16px;
-    font-weight: 700;
-    color: #f1c324;
-    font-family: Roboto, sans-serif;
-}
+
 /* Sasha second page start */
 
 /*Taras start*/
