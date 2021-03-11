@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Roboto&display=swap');
 /* Sasha start */
-<style>
+
 .large-image {
     position: absolute;
     width: 100%;
@@ -67,5 +67,5 @@ h2 {
     color: #6e6e6e;    
     font-family: Roboto, "sans-serif"; 
 }
-</style>
+
 /* Sasha end/
