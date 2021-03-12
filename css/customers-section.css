@@ -38,11 +38,14 @@
 }
 
 .ready-section {
-    background-image: ("maidan.jpg");
+    background-image: url("../img/maidan.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
     background-size: cover;
+    justify-content: center;
 }
 .ready.headline {
     font-family: dosis, sans-serif;
