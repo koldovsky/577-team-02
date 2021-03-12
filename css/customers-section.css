@@ -46,7 +46,6 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    background-size: cover;
     justify-content: center;
 }
 .ready.headline {
@@ -64,9 +63,13 @@
 }
 .ready-button {
     background-color: blue;
+    width: 146px;
+    height: 52px;
     color: white;
     background-position: center;
     text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
 }
 .ready-button:hover {
     background-color: yellow;
