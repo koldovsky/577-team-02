@@ -126,12 +126,18 @@ body{
     padding: 10em;
      font-size: 20px;
     line-height: 200%;
+  
 }
-
+.list-info{
+    list-style-type: circle;
+    list-style-image: url()
+    
+}
 .div-title{
     color: #f1c324;
 font-size: 30px;
 }
+
 
 .carousel-title{
     font-size: 50px;
