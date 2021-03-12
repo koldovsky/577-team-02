@@ -5,12 +5,8 @@
     background-color: white;
     font-family: dosis, sans-serif;
     font-weight: bold;
-    margin-top: 85px;
-    margin-bottom: 85px;
     color: black;
     text-align: center;
-    padding-top: 85px;
-    padding-bottom: 85px;
 }
 .customers-headline {
     font-weight: bold;
@@ -19,22 +15,28 @@
     font-size: 20px;
 }
 .customers-name {
-    font-size: 25px;
+    color: #141414;
+    font-size: 22px;
     font-weight: bold;
+    font-family: Dosis, sans-serif;
 }  
 .color-text {
-    color: blue;
-    font-size: 15px;
+    color: #24B8F1;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
 }
-
 
 #block-left {
+    position: fixed;
+    left: 0px;
     width: 50%;
-    float: left;
+   
 }
 #block-right {
+    position: fixed;
+    right: 0px;
    width: 50%;
-   float: right; 
+   
 }
 
 .ready-section {
