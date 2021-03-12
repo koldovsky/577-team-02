@@ -1,16 +1,6 @@
 /*-- Mariana's Block Start */
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 
-#block-left {
-    width: 50%;
-    float: left;
-}
-#block-right {
-   width: 50%;
-   float: left; 
-}
-
-
 .customers-section { 
     background-color: white;
     font-family: dosis, sans-serif;
@@ -36,6 +26,17 @@
     color: blue;
     font-size: 15px;
 }
+
+
+#block-left {
+    width: 50%;
+    float: left;
+}
+#block-right {
+   width: 50%;
+   float: right; 
+}
+
 .ready-section {
     background-image: ("maidan.jpg");
     height: 100%;
@@ -46,7 +47,6 @@
 .ready.headline {
     font-family: dosis, sans-serif;
     font-weight: bold;
-
     color: #141414;
     text-align: center;
 }
