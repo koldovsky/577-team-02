@@ -11,6 +11,8 @@ header .banner {
     justify-content: center;
 }
 .header {
+    display: flex;
+    flex-direction: row;
     font-size: 25px;
     font-weight: 700;
     color: #f1c324;    
@@ -22,8 +24,6 @@ header .banner {
     color: #f1c324;    
     font-family: Dosis, sans-serif;
     position: relative;
-    left: 1080px;
-    bottom: 100px;
     }
 header .menu {
     list-style-type: none;
@@ -33,14 +33,59 @@ header .menu {
     align-items: center;
 }
 header .menu a{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
     text-decoration: none;
     color: #f1c324; 
     font-size: 16px;
     font-weight: 700;
     font-family: Roboto, sans-serif;  
 }
+header .menu li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    text-decoration: none;
+    color: #f1c324; 
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif; 
+} 
 
 /* Sasha second page start */
+
+/* Tanya Tkach second page start*/
+
+.logo-page-two {
+    color: yellow;
+    font-size: 50px;
+    text-align: center; 
+}
+.text-page-two {
+      text-align: center; 
+      color: white;
+}
+.column-page-two {
+    color: white;
+    font-size:30px;
+
+}
+.yellow-text {
+    color: yellow;
+    font-size:25px;
+}
+.black-fon {
+    background-color: black;
+
+}
+.product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+/*Tanya Tkach second page end*/
 
 /*Taras start*/
 #itinerary{
@@ -102,27 +147,3 @@ font-size: 30px;
 }
 
 /* Pavlo second page end*/
-
-/* Tanya Tkach second page start*/
-.logo-page-two {
-    color: yellow;
-    font-size: 50px;
-    text-align: center; 
-}
-.text-page-two {
-      text-align: center; 
-      color: white;
-}
-.column-page-two {
-    color: white;
-    font-size:40px;
-}
-.yellow-text {
-    color: yellow;
-    font-size:45px;
-}
-.black-fon {
-    background-color: black;
-}
-/*Tanya Tkach second page end*/
-

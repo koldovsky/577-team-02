@@ -1,13 +1,69 @@
+
 /* Tanya Tkach block start */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+#burger-checkbox {
+    display: none;
+}
+.burger-icon {
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.burger-icon:hover {
+    cursor: pointer;
+}
+@media (min-width: 680px) {
+    header .menu {
+        display: flex;
+    }
+    header .burger-icon {
+        display: none;
+    }
+}
+header input:checked ~ .menu {
+    display: flex;
+}
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+@media (max-width: 700px) {
+    .logo-header {
+        display: none;
+    }
+}
+
+ header .menu {
+    font-size: 18px;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 4px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+ }
+ header .menu li a {
+     text-decoration: none;
+      color:yellow;
+ }
+  header .menu :hover {
+      font-weight: bold;
+  }
+  header .menu li ul {
+      list-style: none;
+  }
+  @media (max-width: 700px) {
+     header .menu {
+    display: none;
+     } 
+    }
 .logo-header {
     color: white;
     font-size: 30px;
 }
-.menu {
-   color: rgb(216, 188, 30);
-   font-size: 20px;
-}
+
 h1 {
      color: yellow;
       font-size: 160px;
@@ -17,19 +73,33 @@ h1 {
 .text-header {
     color: yellow;
     font-size: 30px;
-    text-align: center;
+     text-align: center;
     position: relative;
-    bottom: 90px;
+    bottom: 150px;
+
 }
 .logo-main {
    font-size: 65px; 
   
 }
 header {
-   background-color: lightskyblue;
+   min-height: 400px;
+   background-image:url(../img/chernivtsi.jpg);
+   background-position: center;
+   background-size: cover;
+   min-width: 400px;
 }
 .white-color {
     background-color: white;
+   
+}
+.banner {
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
