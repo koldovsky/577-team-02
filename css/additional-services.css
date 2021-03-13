@@ -105,6 +105,8 @@ body .white-part {
     width: 100%;
 }
 #additional {
+    padding: 140px 0 0 0;
+    margine: inherit;
     font-size: 48px;
     font-weight: 700;
     line-height: 57px;
