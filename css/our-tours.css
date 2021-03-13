@@ -1,37 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 /* Sasha second page start */
-header .banner {
-    background-image: url(../img/prypyat-bg-secondpage.jpg);
+header .tours-logo {
+    background-image: url(../img/bcgd-chornobyl.jpg);
     background-size: cover;
     background-position: center;
     min-height: 400px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+}
+@media (min-width: 640px) {
+
+    .main-line {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media (min-width: 801px) {
+
+     .main-line {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+.main-line {
+    display: flex;
+    justify-content: space-around;
 }
 .header {
     display: flex;
     flex-direction: row;
     font-size: 25px;
     font-weight: 700;
-    color: #f1c324;    
-    font-family: Dosis, sans-serif;  
-}
+    color: #fff;    
+    font-family: Dosis, sans-serif;
+    margin-top: 70px;
+    }
 .header-two {
     font-size: 19px;
     font-weight: 500;
-    color: #f1c324;    
+    color: #fff;    
     font-family: Dosis, sans-serif;
     position: relative;
+    margin-top: 70px;
     }
+.logo {
+    margin-top: 20px;
+}
 header .menu {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     flex: 1;
     align-items: center;
-}
+    }
 header .menu a{
     list-style-type: none;
     display: flex;
@@ -52,10 +76,17 @@ header .menu li{
     color: #f1c324; 
     font-size: 16px;
     font-weight: 700;
-    font-family: Roboto, sans-serif; 
-} 
+    font-family: Roboto, sans-serif;  
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 25px;
+    border-color: #ffffff;
+    }
 
-/* Sasha second page start */
+/* Sasha second page end */
 
 /* Tanya Tkach second page start*/
 
