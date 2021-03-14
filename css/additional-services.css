@@ -47,26 +47,30 @@ body .content {
 .grey-box {
     background-color:rgba(255, 255, 255, 0.1);
     padding: 19px 21px 19px 21px;
-    margin: 12px 0px 0px 0px;
-    width: 307px;
-    height: 14px;
+    margin: auto;
     color: #ffffff;
     font-size: 12px;
     font-weight: 400;
     font-family: Roboto, sans-serif;
     text-align: left;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
    }
 .yellow-box {
     background-color:yellow;
     padding: 19px 21px 19px 21px;
-    margin: 12px 0px 0px 0px;
-    width: 307px;
-    height: 14px;
+    margin: auto;
     color: #ffffff;
     font-size: 12px;
     font-weight: 700;
     font-family: Roboto, sans-serif;
     text-align: center; 
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
 }
 body .white-part {
     background-image: url(../img/bkgd-fon-addservices.jpg);

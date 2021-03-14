@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 /* Sasha second page start */
+:root {
+    scroll-behavior: smooth;
+}
 header .tours-logo {
     background-image: url(../img/bcgd-chornobyl.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 400px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
 }
-@media (min-width: 640px) {
+@media (min-width: 620px) {
 
     .main-line {
         display: grid;
@@ -25,9 +28,10 @@ header .tours-logo {
     }
 
 }
-.main-line {
-    display: flex;
+.main-line {  
     justify-content: space-around;
+    align-items: center;
+    text-align: center;     
 }
 .header {
     display: flex;
@@ -48,42 +52,24 @@ header .tours-logo {
     }
 .logo {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
-header .menu {
-    list-style-type: none;
+.navbar {
+    color: #f1c324;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif; 
+}
+header .navbar-nav {
     display: flex;
     justify-content: space-around;
     flex: 1;
     align-items: center;
     }
-header .menu a{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    flex: 1;
-    text-decoration: none;
-    color: #f1c324; 
-    font-size: 16px;
-    font-weight: 700;
-    font-family: Roboto, sans-serif;  
-}
-header .menu li{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    flex: 1;
-    text-decoration: none;
-    color: #f1c324; 
-    font-size: 16px;
-    font-weight: 700;
-    font-family: Roboto, sans-serif;  
-}
 .banner {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-width: 25px;
-    border-color: #ffffff;
     }
 
 /* Sasha second page end */
