@@ -43,7 +43,17 @@ body .content {
     font-family: Dosis, sans-serif;
     text-align: center;
    }
-
+@media (min-width: 610px) {
+    
+     .grey-box {
+         
+         display: flex;
+         justify-content: space-around;         
+         align-items: center;
+         flex: 1;
+    }
+    
+}         
 .grey-box {
     background-color:rgba(255, 255, 255, 0.1);
     padding: 19px 21px 19px 21px;
@@ -52,12 +62,19 @@ body .content {
     font-size: 12px;
     font-weight: 400;
     font-family: Roboto, sans-serif;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    flex: 1;
-    justify-content: space-around;
-   }
+    text-align: left; 
+    }
+@media (min-width: 610px) {
+    
+     .yellow-box {
+         
+         display: flex;
+         justify-content: space-around;         
+         align-items: center;
+         flex: 1;
+    }
+    
+}        
 .yellow-box {
     background-color:yellow;
     padding: 19px 21px 19px 21px;
