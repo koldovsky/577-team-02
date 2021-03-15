@@ -42,6 +42,7 @@
         grid-template-columns: 40% 60%;
         align-items: center;
     }
+}
     article>div {
         padding-left: 30px;
     }
@@ -50,4 +51,3 @@
     }
     
 
-/*Taras end*/

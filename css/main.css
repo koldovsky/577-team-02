@@ -1,9 +1,7 @@
 /*-- Pavlo parts start */
 
-body{
-    background-color: black;
 
-}
+
 #our-tours{
     text-align: center;
     font-size: 50px;
@@ -21,18 +19,18 @@ body{
     }
 }
 .cards{ 
-   position: center;
 padding: 2em;
   margin: 5px;
+  
 }
 
 
-.card{
+.card-body{
     background-color: black;
 padding: 1em;
 width: 23em;
 display: grid;
-size: 500px;
+
 }
 .card-title{
     color: orange;
@@ -45,7 +43,7 @@ size: 500px;
 .card-image{
     max-width: 100%;
     display: block;
-    object-fit: cover;
+  
 }
 
    
@@ -94,6 +92,7 @@ width: auto;
     background-color: white;
     cursor: pointer;
 }
+
 /*  bootstrap
 .cardo{
     display: flex;
