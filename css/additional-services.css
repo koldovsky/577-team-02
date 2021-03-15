@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Sasha start */
 
-body .content {
+body .wanttotravel-lviv {
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -11,14 +11,14 @@ body .content {
 }
 @media (min-width: 801px) {
     
-    .content {
+    .wanttotravel-lviv {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
     }
 
 }
-.content img {
+.wanttotravel-lviv img {
     display: block;
     height: 100%;
     width: 100%;
@@ -29,14 +29,14 @@ body .content {
     margin: 0 100px 0 100px;
     align-items: center;
 }
-#head-text {
+#head-text-additional {
     color: #f1c324;
     font-size: 32px;
     font-weight: 700;
     font-family: Dosis, sans-serif;
     text-align: center;
     }
-#firstline {
+#firstline-contacts {
     color: #6e6e6e;
     font-size: 19px;
     font-weight: 500;     
@@ -45,7 +45,7 @@ body .content {
    }
 @media (min-width: 610px) {
     
-     .grey-box {
+     .grey-box-contacts {
          
          display: flex;
          justify-content: space-around;         
@@ -54,7 +54,7 @@ body .content {
     }
     
 }         
-.grey-box {
+.grey-box-contacts {
     background-color:rgba(255, 255, 255, 0.1);
     padding: 19px 21px 19px 21px;
     margin: auto;
@@ -66,7 +66,7 @@ body .content {
     }
 @media (min-width: 610px) {
     
-     .yellow-box {
+     .yellow-box-button {
          
          display: flex;
          justify-content: space-around;         
@@ -75,7 +75,7 @@ body .content {
     }
     
 }        
-.yellow-box {
+.yellow-box-button {
     background-color:yellow;
     padding: 19px 21px 19px 21px;
     margin: auto;
@@ -89,7 +89,7 @@ body .content {
     align-items: center;
     justify-content: space-around;
 }
-body .white-part {
+body .white-part-additional {
     background-image: url(../img/bkgd-fon-addservices.jpg);
     background-size: cover;
     background-position: center;
@@ -101,7 +101,7 @@ body .white-part {
 }
 @media (min-width: 640px) {
 
-    .services {
+    .servicesprovide {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -109,26 +109,26 @@ body .white-part {
 }
 @media (min-width: 801px) {
 
-    .services {
+    .servicesprovide {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
 }
 @media (min-width: 980px) {
 
-    .services {
+    .servicesprovide {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-.services article {
+.servicesprovide article {
     padding: 10px;
     margin: 0 0 5px 0;
 }
-.services article img {
+.servicesprovide article img {
     display: block;
     width: 100%;
 }
-#additional {
+#additionalservices {
     padding: 100px;
     margin: -15px;
     font-size: 48px;
