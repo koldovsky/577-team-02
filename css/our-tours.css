@@ -1,161 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-/* Sasha second page start */
-:root {
-    scroll-behavior: smooth;
-}
-header .tours-logo {
-    background-image: url(../img/bcgd-chornobyl.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 200px;
-    display: flex;
-    flex-direction: column;
-}
-@media (min-width: 620px) {
-
-    .main-line {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-}
-@media (min-width: 801px) {
-
-     .main-line {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-}
-.main-line {  
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;     
-}
-.header {
-    display: flex;
-    flex-direction: row;
-    font-size: 25px;
-    font-weight: 700;
-    color: #fff;    
-    font-family: Dosis, sans-serif;
-    margin-top: 70px;
-    }
-.header-two {
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;    
-    font-family: Dosis, sans-serif;
-    position: relative;
-    margin-top: 70px;
-    }
-.logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.navbar {
-    color: #f1c324;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: Roboto, sans-serif; 
-}
-header .navbar-nav {
-    display: flex;
-    justify-content: space-around;
-    flex: 1;
-    align-items: center;
-    }
-.banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-
-/* Sasha second page end */
-
-/* Tanya Tkach second page start*/
-
-.logo-page-two {
-    color: yellow;
-    font-size: 40px;
-    text-align: center; 
-}
-.text-page-two {
-      text-align: center; 
-      color: white;
-}
-.column-page-two {
-    color: white;
-    font-size:30px;
-}
-.yellow-text {
-    color: yellow;
-    font-size:25px;
-}
-
-.product-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-}
-/*Tanya Tkach second page end*/
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /*Taras start*/
-#itinerary{
-    background-color: grey;
+* {
+    margin: 0px;
+    padding: 0px;
 }
-.h-itinerary{
+#itinerary { 
+    padding: 90px 24px 70px 24px;
+    background-image: url(../img/itinerary.png);
+    background-size: cover;
+    background-color: black;
+}
+.h-itinerary {
+    text-align: center;
+    padding: 22px;
     font-family: Dosis, sans-serif;
-    font-size: 48px;
+    font-size: 34px;
     color: #FFFFFF;
 }
-.itinerary-day{
+.itinerary-day {
     font-family: Dosis, sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     color: #FFFFFF;
 }
-.itinerary-description{
+.itinerary-description {
     font-family: Roboto, sans-serif;
     font-size: 17px;
     color: #FFFFFF;
 }
-.itinerary-img{
-    height: 400px;
-    width: 470px;
+.itinerary-img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 701px;
+    max-height: 598px;    
+    min-height: 231px;
+    min-width: 272px;
 }
-/*Taras end*/
-
-/* Pavlo second page start*/
-header{
-    background-color: cornsilk;
-}
-body{
-    background-color: black;
-}
-.box-container {
-    background-color: black;  
-    color: white;     
-    display: flex;
-    padding: 10em;
-     font-size: 20px;
-    line-height: 200%;
-}
-.list-info{
-    list-style-type: circle;
-    list-style-image: url()
+@media (min-width:800px) {
+    article {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        align-items: center;
+    }
+    article>div {
+        padding-left: 30px;
+    }
+    .h-itinerary {
+        font-size: 48px;
+    }
     
-}
-.div-title{
-    color: #f1c324;
-font-size: 30px;
-}
 
-
-.carousel-title{
-    font-size: 50px;
-    color: #f1c324;
-    text-align: center;
-    background-color: black;
-}
-
-/* Pavlo second page end*/
+/*Taras end*/
