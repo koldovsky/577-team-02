@@ -22,16 +22,22 @@
     .logo-header {
         display: none;
     }
-}
+    .logo-container img {
+        display: none;
+    }
+  }
 
  header .container-fluid {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
     padding: 4px;
-    position: relative;  
-    left: 400px;
  }
+ header .navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    }
 
 h1 {
     color: yellow;
