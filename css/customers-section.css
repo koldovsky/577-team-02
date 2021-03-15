@@ -1,77 +1,122 @@
 /*-- Mariana's Block Start */
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-
-.customers-section { 
-    background-color: white;
-    font-family: dosis, sans-serif;
-    font-weight: bold;
-    color: black;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    background-color: black;
+    --headline-font: Dosis, sans-serif;
+    --text-font: Roboto, sans-serif;
+    --black: #141414;
+    --white: #ffffff;
+    --blue: #24b8f1;
+    --orange: #f1c324;
+}
+h2 {
+    font-family: var(--headline-font);
+    font-size: 48px;
+    color: var(--black);
+}
+p {
+    font-family: var(--text-font);
+    font-size: 20px;
+    color: var(--black);  
+}
+h3 {
+    font-family: var(--headline-font);
+    font-size: 25px;
+    color: var(--black);
+}
+h5 {
+    font-family: var(--text-font);
+    font-size: 15px;
+    color: var(--blue);
+}
+.customer-image {
+    width: 600px;
+}
+#customers-text-block-egypt {
+    background-color: var(--white);
     text-align: center;
 }
-.customers-headline {
-    font-weight: bold;
+#customers-text-block-uk {
+    background-color: var(--white);
+    text-align: center;
 }
-.customers-text {
-    font-size: 20px;
+#customers-text-block-canada {
+    background-color: var(--white);
+    text-align: center;
 }
-.customers-name {
-    color: #141414;
-    font-size: 22px;
-    font-weight: bold;
-    font-family: Dosis, sans-serif;
-}  
-.color-text {
-    color: #24B8F1;
-    font-size: 14px;
-    font-family: Roboto, sans-serif;
-}
-
-#block-left {
-    position: fixed;
-    left: 0px;
-    width: 50%;
-   
-}
-#block-right {
-    position: fixed;
-    right: 0px;
-   width: 50%;
-   
-}
-
 .ready-section {
-    background-image: url("../img/maidan.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.ready.headline {
-    font-family: dosis, sans-serif;
-    font-weight: bold;
-    color: #141414;
+    background-image: url(/img/maidan.jpg);
+    height: 600px;
     text-align: center;
 }
-.ready-text {
-    font-family: dosis, sans-serif;
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
-    text-align: center; 
+.ready-section-text {
+    color: var(--white);
 }
-.ready-button {
-    background-color: blue;
-    width: 146px;
-    height: 52px;
-    color: white;
-    background-position: center;
-    text-align: center;
-    font-family: Roboto, sans-serif;
+.button {
+    font-family: var(--text-font);
     font-size: 12px;
+    font-weight: 700;
+    color: var(--white);
+    width: 104px;
+    padding: 1.5em;
+    background-color: var(--blue);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
-.ready-button:hover {
-    background-color: yellow;
-
+.button:hover {
+    background-color: var(--orange);
 }
+/*
+.form-section {
+}
+.form-image {
+}
+*/
+#form-text-block {
+    background-color: #FFFFFF0F;
+    text-align: center;
+}
+.form-heading {
+    color: var(--orange);
+}
+.form-text {
+    color: var(--white);
+}
+.form-input {
+    background-color: #FFFFFF21;
+    text-align: left;
+    border: none;
+}
+#form-button {
+    background-color: var(--orange);
+    text-transform: uppercase;
+}
+#form-button:hover {
+    background-color: var(--blue);
+}
+/*
+.footer-section {
+}
+.footer-logo {
+}
+*/
+.footer-block {
+    font-family: var(--text-font);
+    font-size: 17px;
+    color: var(--white);
+    list-style-type: none;
+}
+.footer-block:hover {
+   color: var(--orange); 
+}
+#follow-media {
+    color: var(--white); 
+}
+.copyright {
+    font-family: var(--text-font);
+    font-size: 14px;
+    color: var(--white);
+}
+/*-- Mariana's Block End */
