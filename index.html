@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>U tours</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/additional-services.css">
@@ -15,38 +16,53 @@
 
 <body>
     <header>
-        <nav>
-            <label class="burger-icon" for="burger-checkbox">☰</label>
-            <input type="checkbox" id="burger-checkbox">
             <div class="logo-container">
                 <div class="logo-header">Tours in Ukraine</div>
                 <div><img src="img/u-tour-logo.png" alt="logo"></div>
                 <div><a class="logo-header" href="#email">U-tours@email.com</a></div>
             </div>
             <div>
-                <ul class="menu">
-                    <li><a href="#ourtours">Our tours</a></li>
-                    <li>
-                        <ul>
-                            <li><a href="our-tours.html">City tours</a></li>
-                            <li><a href="our-tours.html">Nature tourism</a></li>
-                            <li><a href="our-tours.html">Extreme tours</a></li>
-                        </ul>
+                <nav class="navbar navbar-expand-lg navbar-solid bg-solid">
+                  <div class="container-fluid">
+                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                         </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Our tours
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#our-tours.html">City tours</a></li>
+                        <li><a class="dropdown-item" href="#our-tours.html">Nature tourism</a></li>
+                        <li><a class="dropdown-item" href="#our-tours.html">Extreme tours</a></li>
+                    </ul>
                     </li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#reviews">Reviews</a></li>
-                    <li><a href="#aboutus">About us</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#reviev">Rewiev</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about us">About us</a>
+                    </li>
+                     <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
                 </ul>
+                </div>
             </div>
-        </nav>
+                </nav>
         <div class="banner">
             <h1>U Tours</h1>
             <p class="text-header">Spectacular tours around Ukraine: cities, nature, experiences</p>
         </div>
     </header>
     <main>
-        <div class="white-color">
+        <div class="about">
+          <div class="white-color">
             <h2 class="logo-main">About us</h2>
             <p>U Trours is your local travel expert and tour operator, offering unforgettable handcrafted tours all over
                 Ukraine. Our company specializes in small group tours with guaranteed departures, and tailor-made tours.
@@ -55,8 +71,9 @@
             <div class="button-container">
                 <button>LEARN MORE</button>
             </div>
+          </div>  
             <img src="img/build.jpg" alt="build">
-        </div>
+        </div>   
         <!--Tanya Tkach block end-->
 
         <!--Pavlo block start-->
@@ -351,6 +368,7 @@
             <img id="footer-img" src="img/footer-kyiv.jfif" alt="Great Lavra Bell Tower">
         </footer>
         <!--Taras end-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>

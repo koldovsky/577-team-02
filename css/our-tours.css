@@ -94,10 +94,7 @@ header .navbar-nav {
     color: yellow;
     font-size:25px;
 }
-.black-fon {
-    background-color: black;
 
-}
 .product-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
