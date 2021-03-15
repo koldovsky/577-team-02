@@ -1,106 +1,105 @@
 
 /* Tanya Tkach block start */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-#burger-checkbox {
-    display: none;
-}
-.burger-icon {
-    font-size: 3rem;
-    display: flex;
-    justify-content: flex-end;
-}
-.burger-icon:hover {
-    cursor: pointer;
-}
-@media (min-width: 680px) {
-    header .menu {
-        display: flex;
-    }
-    header .burger-icon {
-        display: none;
-    }
-}
-header input:checked ~ .menu {
-    display: flex;
-}
 .logo-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
 }
+.logo-header {
+    color: white;
+    font-size: 30px;
+}
+
 @media (max-width: 700px) {
     .logo-header {
         display: none;
     }
 }
 
- header .menu {
-    font-size: 18px;
-    list-style: none;
+ header .container-fluid {
+    font-size: 14px;
     text-transform: uppercase;
+    font-weight: bold;
     padding: 4px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    position: relative;  
+    left: 400px;
  }
- header .menu li a {
-     text-decoration: none;
-      color:yellow;
- }
-  header .menu :hover {
-      font-weight: bold;
-  }
-  header .menu li ul {
-      list-style: none;
-  }
-  @media (max-width: 700px) {
-     header .menu {
-    display: none;
-     } 
-    }
-.logo-header {
-    color: white;
-    font-size: 30px;
-}
 
 h1 {
-     color: yellow;
-      font-size: 160px;
-      font-family:Dancing Script ;
-      text-align: center;
+    color: yellow;
+    font-size: 180px;
+    font-family:Dancing Script ;
+    text-align: center;
+    position: relative;
+    top: 130px;
 }
 .text-header {
     color: yellow;
     font-size: 30px;
-     text-align: center;
+    text-align: center;
     position: relative;
-    bottom: 150px;
+    top: 110px;
 
 }
 .logo-main {
-   font-size: 65px; 
-  
+    font-size: 65px; 
 }
+
 header {
-   min-height: 400px;
-   background-image:url(../img/chernivtsi.jpg);
-   background-position: center;
-   background-size: cover;
-   min-width: 400px;
+    background-image:url(../img/chernivtsi.jpg);
+    background-position: center;
+    background-size: cover;
+    min-width: 400px;
+    height: 800px;
 }
-.white-color {
-    background-color: white;
-   
-}
+
 .banner {
-    position: relative;
-    bottom: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+.white-color {
+    background-color: white;
+  
+}
+.about {
+  display:grid;
+  grid-template-columns:50% 50%;
+}
+main, img {
+   object-fit: cover;
+   max-width: 100%;
+   max-height: 100%;
+}
+main .white-color p {
+    font-size: 18px;
+    padding: 10px;
+}
+.button-container {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid white;
+    border-radius: 0.12em;
+    color:white;
+    text-align: center;
+    position: relative;
+    right: 150px;
+    transition: color 0.7s;
+    background-color:transparent;
+}
+.button-container button {
+     background-color:yellow;
+     font-weight: bold;
+}
+
+.button-container :hover {
+    color: #000000;
+    background-color: rgb(43, 172, 231);
+    cursor: pointer;
+}
+
 
 
 /* Tanya Tkach end block */
