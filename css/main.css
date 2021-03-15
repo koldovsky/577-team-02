@@ -21,7 +21,7 @@ body{
     }
 }
 .cards{ 
-    align-items: center;
+   position: center;
 padding: 2em;
   margin: 5px;
 }
@@ -32,9 +32,7 @@ padding: 2em;
 padding: 1em;
 width: 23em;
 display: grid;
-height: 100%;
-
-
+size: 500px;
 }
 .card-title{
     color: orange;
@@ -64,14 +62,15 @@ width: auto;
 }
 
 .card-button {
-    padding: 0.35em 1.2em;
+    padding: 0.5em 0.9em;
     border: 0.1em solid #FFFFFF;
-    margin: 0 0.3em 0.3em 0;
+    margin: 1em 0.7em 0.3em 0;
     border-radius: 0.12em;
     color: #FFFFFF;
     text-align: center;
     transition: color 0.3s;
     background-color: transparent;
+  
 
 }
 
@@ -95,3 +94,16 @@ width: auto;
     background-color: white;
     cursor: pointer;
 }
+/*  bootstrap
+.cardo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cardi{
+    padding: 20px;
+    margin: auto;
+    height: 35rem;
+    width: 25rem;
+}
+*/
