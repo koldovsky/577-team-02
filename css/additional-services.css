@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Sasha start */
 
-body .wanttotravel-lviv {
+.wanttotravel-lviv {
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -89,7 +89,7 @@ body .wanttotravel-lviv {
     align-items: center;
     justify-content: space-around;
 }
-body .white-part-additional {
+.white-part-additional {
     background-image: url(../img/bkgd-fon-addservices.jpg);
     background-size: cover;
     background-position: center;
