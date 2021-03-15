@@ -1,75 +1,91 @@
 /*-- Pavlo parts start */
 
+* {
+    max-width: 980px;
+    margin: auto;
+}
 
-
-#our-tours{
+#our-tours {
     text-align: center;
     font-size: 50px;
     color: orange;
 }
-@media(min-width: 640px){
-.cards{
-    display: grid;
-    grid-template-columns:1fr 1fr ;
+
+@media(min-width: 640px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
-}
-@media( min-width: 801px){
-    .cards{
+
+@media( min-width: 801px) {
+    .cards {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-.cards{ 
-padding: 2em;
-  margin: 5px;
-  
+
+.cards {
+    padding: 2em;
 }
 
-
-.card-body{
+.card-body {
     background-color: black;
-padding: 1em;
-width: 23em;
-display: grid;
-
+    width: 20rem;
+    display: grid;
+    text-align: left;
 }
-.card-title{
+
+.card-titles {
+    color: white;
+}
+
+.card-price {
     color: orange;
-    
-}
-.card-text{
-    font-size: 16px;
-    color: gray;
-}
-.card-image{
-    max-width: 100%;
-    display: block;
-  
 }
 
-   
-.sale-box{
+.card-text {
+    font-size: 16px;
+    color: grey;
+}
+
+.card-image {
+    width: 100%;
+    display: block;
+}
+
+.button-info {
+    max-width: px;
+    align-items: center;
+}
+
+.sale-box {
     background-color: orange;
     text-align: center;
     font-size: 18px;
-  padding: 8em;
-width: auto;
+    padding: 8em;
+    width: auto;
 }
-.sale-title{
+
+.sale-title {
     font-size: 70px;
-   
+}
+
+.btn-card {
+    margin-top: auto;
+    height: 100%;
 }
 
 .card-button {
-    padding: 0.5em 0.9em;
     border: 0.1em solid #FFFFFF;
-    margin: 1em 0.7em 0.3em 0;
     border-radius: 0.12em;
     color: #FFFFFF;
     text-align: center;
     transition: color 0.3s;
     background-color: transparent;
-  
-
+    padding: 6px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    width: 100%
 }
 
 .card-button:hover {
@@ -77,7 +93,8 @@ width: auto;
     background-color: #FFFFFF;
     cursor: pointer;
 }
-.sale-button{
+
+.sale-button {
     padding: 0.35em 1.2em;
     border: 0.1em solid #FFFFFF;
     margin: 0 0.3em 0.3em 0;
@@ -87,6 +104,7 @@ width: auto;
     transition: color 0.3s;
     background-color: black;
 }
+
 .sale-button:hover {
     color: #000000;
     background-color: white;

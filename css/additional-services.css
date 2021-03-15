@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Sasha start */
 
-body .content {
+.content {
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -89,7 +89,7 @@ body .content {
     align-items: center;
     justify-content: space-around;
 }
-body .white-part {
+.white-part {
     background-image: url(../img/bkgd-fon-addservices.jpg);
     background-size: cover;
     background-position: center;
@@ -148,7 +148,7 @@ body .white-part {
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
-    color: #6e6e6e;    
+    color: #6e6e6e;       
     font-family: Roboto, "sans-serif"; 
 }
 /* Sasha end/

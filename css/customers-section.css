@@ -9,26 +9,7 @@ body {
     --blue: #24b8f1;
     --orange: #f1c324;
 }
-h2 {
-    font-family: var(--headline-font);
-    font-size: 48px;
-    color: var(--black);
-}
-p {
-    font-family: var(--text-font);
-    font-size: 20px;
-    color: var(--black);  
-}
-h3 {
-    font-family: var(--headline-font);
-    font-size: 25px;
-    color: var(--black);
-}
-h5 {
-    font-family: var(--text-font);
-    font-size: 15px;
-    color: var(--blue);
-}
+
 .customer-image {
     width: 600px;
 }

@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 /* Sasha second page start */
+
 body {
     max-width: 980px;
     margin: auto;
 }
+
 :root {
     scroll-behavior: smooth;
 }
+
 header .tours-logo {
     background-image: url(../img/bcgd-chornobyl.jpg);
     background-size: cover;
@@ -16,65 +19,70 @@ header .tours-logo {
     display: flex;
     flex-direction: column;
 }
-@media (min-width: 620px) {
 
+@media (min-width: 620px) {
     .main-line {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
 }
-@media (min-width: 801px) {
 
-     .main-line {
+@media (min-width: 801px) {
+    .main-line {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-
 }
-.main-line {  
+
+.main-line {
     justify-content: space-around;
     align-items: center;
-    text-align: center;     
+    text-align: center;
 }
+
 .header {
     display: flex;
     flex-direction: row;
     font-size: 25px;
     font-weight: 700;
-    color: #fff;    
+    color: #fff;
     font-family: Dosis, sans-serif;
     margin-top: 70px;
-    }
+}
+
 .header-two {
     font-size: 19px;
     font-weight: 500;
-    color: #fff;    
+    color: #fff;
     font-family: Dosis, sans-serif;
     position: relative;
     margin-top: 70px;
-    }
+}
+
 .logo {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .navbar {
     color: #f1c324;
     font-size: 16px;
     font-weight: 700;
-    font-family: Roboto, sans-serif; 
+    font-family: Roboto, sans-serif;
 }
+
 header .navbar-nav {
     display: flex;
     justify-content: space-around;
     flex: 1;
     align-items: center;
-    }
+}
+
 .banner {
     display: flex;
     align-items: center;
     justify-content: center;
-    }
+}
 
 /* Sasha second page end */
 
@@ -83,25 +91,29 @@ header .navbar-nav {
 .logo-page-two {
     color: yellow;
     font-size: 40px;
-    text-align: center; 
+    text-align: center;
 }
+
 .text-page-two {
-      text-align: center; 
-      color: white;
+    text-align: center;
+    color: white;
 }
+
 .column-page-two {
     color: white;
-    font-size:30px;
+    font-size: 30px;
 }
+
 .yellow-text {
     color: yellow;
-    font-size:25px;
+    font-size: 25px;
 }
 
 .product-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
 /*Tanya Tkach second page end*/
 
 /*Taras start*/
@@ -110,12 +122,14 @@ header .navbar-nav {
     margin: 0px;
     padding: 0px;
 }
-#itinerary { 
+
+#itinerary {
     padding: 90px 24px 70px 24px;
     background-image: url(../img/itinerary.png);
     background-size: cover;
     background-color: black;
 }
+
 .h-itinerary {
     text-align: center;
     padding: 22px;
@@ -123,24 +137,28 @@ header .navbar-nav {
     font-size: 34px;
     color: #FFFFFF;
 }
+
 .itinerary-day {
     font-family: Dosis, sans-serif;
     font-size: 22px;
     color: #FFFFFF;
 }
+
 .itinerary-description {
     font-family: Roboto, sans-serif;
     font-size: 17px;
     color: #FFFFFF;
 }
+
 .itinerary-img {
     margin-top: 20px;
     width: 100%;
     max-width: 701px;
-    max-height: 598px;    
+    max-height: 598px;
     min-height: 231px;
     min-width: 272px;
 }
+
 @media (min-width:800px) {
     article {
         display: grid;
@@ -148,40 +166,45 @@ header .navbar-nav {
         align-items: center;
     }
 }
-    article>div {
-        padding-left: 30px;
-    }
-    .h-itinerary {
-        font-size: 48px;
-    }
-    
+
+article>div {
+    padding-left: 30px;
+}
+
+.h-itinerary {
+    font-size: 48px;
+}
 
 /*Taras end*/
+
 /*Taras end*/
 
 /* Pavlo second page start*/
 
-
 .box-container {
-    background-color: black;  
-    color: white;     
-    display: flex;
-    padding: 10em;
-     font-size: 20px;
+    background-color: black;
+    font-size: 18px;
     line-height: 200%;
+    display: flex;
+    margin: 1em;
 }
-.list-info{
-    list-style-type: circle;
-    list-style-image: url()
-    
+
+.list-info {
+    list-style-type: square;
+    text-align: left;
+    background-color: black;
+    padding: 3em;
+    width: 100%;
+    color: white;
+    display: block;
 }
-.div-title{
+
+.list-title {
     color: #f1c324;
-font-size: 30px;
+    font-size: 30px;
 }
 
-
-.carousel-title{
+.carousel-title {
     font-size: 50px;
     color: #f1c324;
     text-align: center;
