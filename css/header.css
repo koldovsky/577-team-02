@@ -2,6 +2,21 @@
 /* Tanya Tkach block start */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+:root {
+    /*contacts and footter colors*/
+    --hcolor:#F1C324;
+    --contacts-text-color:#6E6E6E;
+    --allcont-container-color:#FFFFFF17;
+    --contacts-background-color: #141414;
+    --footer-background-color:#F7F9FB;
+    --footer-horer-color: rgb(8, 233, 233);
+    /*contacts and footter colors*/
+}
+body {
+    max-width: 1080px;
+    margin: auto;
+}
+
 .logo-container {
     display: flex;
     justify-content: space-between;
