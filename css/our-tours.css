@@ -9,6 +9,7 @@ body {
 
 :root {
     scroll-behavior: smooth;
+    --itinerary-text-color:#FFFFFF;
 }
 
 header .tours-logo {
@@ -127,7 +128,6 @@ header .navbar-nav {
     padding: 90px 24px 70px 24px;
     background-image: url(../img/itinerary.png);
     background-size: cover;
-    background-color: black;
 }
 
 .h-itinerary {
@@ -135,19 +135,19 @@ header .navbar-nav {
     padding: 22px;
     font-family: Dosis, sans-serif;
     font-size: 34px;
-    color: #FFFFFF;
+    color: var(--itinerary-text-color);
 }
 
 .itinerary-day {
     font-family: Dosis, sans-serif;
     font-size: 22px;
-    color: #FFFFFF;
+    color: var(--itinerary-text-color);
 }
 
 .itinerary-description {
     font-family: Roboto, sans-serif;
     font-size: 17px;
-    color: #FFFFFF;
+    color: var(--itinerary-text-color);
 }
 
 .itinerary-img {
@@ -174,8 +174,6 @@ article>div {
 .h-itinerary {
     font-size: 48px;
 }
-
-/*Taras end*/
 
 /*Taras end*/
 
