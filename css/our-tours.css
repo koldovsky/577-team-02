@@ -102,18 +102,41 @@ header .navbar-nav {
 
 .column-page-two {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .yellow-text {
     color: yellow;
     font-size: 25px;
+    font-weight: bolder;
 }
 
 .product-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
 }
+@media (min-width: 420px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+@media (min-width: 520px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+@media (min-width: 620px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }
+}
+@media (min-width: 720px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    }
+}
+
 
 /*Tanya Tkach second page end*/
 
