@@ -58,7 +58,7 @@ header .tours-logo {
     color: #fff;
     font-family: Dosis, sans-serif;
     }
-.navbar {
+header .container-fluid {
     color: #f1c324;
     font-size: 16px;
     font-weight: 700;
