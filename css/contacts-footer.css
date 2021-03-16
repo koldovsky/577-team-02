@@ -6,7 +6,7 @@
 #contacts {
     background-color: var(--contacts-background-color);
 }
-@media (min-width:800px){
+@media (min-width:768){
     #contacts {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -47,7 +47,7 @@
     list-style-type: none;
     padding-bottom: 10px;
 }
-@media(min-width:800px) {
+@media(min-width:768px) {
     .adr {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -116,7 +116,7 @@ footer a {
 .footer-menu>li{
     padding: 10px;
 }
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     footer .footer-menu {
         display: flex;
         justify-content: center;
@@ -145,7 +145,7 @@ footer a {
 .created-by a:hover {
     color: var(--footer-horer-color);
 }
-@media (min-width:600px) {
+@media (min-width:768px) {
     .created-by {
         display: flex;
         justify-content: center;
