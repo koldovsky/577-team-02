@@ -39,6 +39,7 @@ header .tours-logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px;
     }
 
 .header-tourslogo {
@@ -47,7 +48,7 @@ header .tours-logo {
     color: #fff;
     font-family: Dosis, sans-serif;
     }
-.logo {
+.logo img{
     width: 100px;
     height: 100px;
 }
