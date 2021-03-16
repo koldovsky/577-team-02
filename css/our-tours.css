@@ -36,33 +36,22 @@ header .tours-logo {
 }
 
 .main-line {
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
+.header-tourslogo {
     font-size: 25px;
     font-weight: 700;
     color: #fff;
     font-family: Dosis, sans-serif;
     margin-top: 70px;
 }
-
-.header-two {
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
-    font-family: Dosis, sans-serif;
-    position: relative;
-    margin-top: 70px;
-}
-
 .logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
 }
 
 .navbar {
@@ -74,8 +63,7 @@ header .tours-logo {
 
 header .navbar-nav {
     display: flex;
-    justify-content: space-around;
-    flex: 1;
+    justify-content: space-between;
     align-items: center;
 }
 
