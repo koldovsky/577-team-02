@@ -39,21 +39,24 @@ header .tours-logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-}
+    }
 
 .header-tourslogo {
     font-size: 25px;
     font-weight: 700;
     color: #fff;
     font-family: Dosis, sans-serif;
-    margin-top: 70px;
-}
+    }
 .logo {
     width: 100px;
     height: 100px;
 }
-
+.header-tourslogotwo {
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    font-family: Dosis, sans-serif;
+    }
 .navbar {
     color: #f1c324;
     font-size: 16px;
