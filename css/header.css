@@ -62,6 +62,12 @@ h1 {
     position: relative;
     top: 130px;
 }
+@media (max-width: 620px) {
+    h1 {
+      font-size: 140px;  
+    }
+}
+
 .text-header {
     color: yellow;
     font-size: 30px;
@@ -76,7 +82,7 @@ header {
     background-position: center;
     background-size: cover;
     min-width: 400px;
-    height: 700px;
+    min-height: 850px;
 }
 
 .banner {
@@ -90,16 +96,21 @@ header {
   
 }
 .about {
-  display:grid;
-  grid-template-columns:50% 50%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
 }
 
+@media (max-width: 620px) {
+    .about {
+      grid-template-columns:1fr;  
+    }
+}
 .logo-main {
     font-size: 50px;
     padding: 20px;
 }
 
- .img {
+ .about-image {
    object-fit: cover;
    display: block;
    width: 100%;
@@ -118,10 +129,14 @@ header {
     text-align: center;
     transition: color 0.7s;
     background-color:transparent;
+    
 }
 .button-container button {
      background-color:yellow;
      font-weight: bold;
+      padding: 6px;
+    margin-top: 3px;
+    margin-bottom: 4px;
 }
 
 .button-container :hover {
