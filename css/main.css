@@ -2,7 +2,6 @@
 
 * {
     max-width: 980px;
-    margin: auto;
 }
 
 #our-tours {
@@ -13,7 +12,8 @@
 
 @media(min-width: 640px) {
     .cards {
-        display: grid;
+       display: grid;
+       grid-gap: 5px;
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -23,16 +23,18 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-
-.cards {
-    padding: 2em;
+.our-tours_separator{
+    font-weight: 500;
+    color: lightskyblue;
+    font-size: 40px;
+    text-align: center;
+  
 }
-
 .card-body {
     background-color: black;
-    width: 20rem;
-    display: grid;
+    border: 1px solid black;
     text-align: left;
+    justify-content: space-around;
 }
 
 .card-titles {
@@ -53,27 +55,12 @@
     display: block;
 }
 
+
 .button-info {
-    max-width: px;
+   padding: 30px;
     align-items: center;
 }
 
-.sale-box {
-    background-color: orange;
-    text-align: center;
-    font-size: 18px;
-    padding: 8em;
-    width: auto;
-}
-
-.sale-title {
-    font-size: 70px;
-}
-
-.btn-card {
-    margin-top: auto;
-    height: 100%;
-}
 
 .card-button {
     border: 0.1em solid #FFFFFF;
@@ -93,34 +80,57 @@
     background-color: #FFFFFF;
     cursor: pointer;
 }
+/*-------------------*/
+.sale-box{
+    background-color: rgb(238, 182, 40);
+    justify-content: center;
+    text-align: center;
+   padding: 8em;
+}
 
+
+.sale-title{
+    font-size: 70px;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.time-count_content{
+display: flex;
+justify-content: center;
+}
+.time-count_val{
+font-size: 50px;
+font-weight: 600;
+line-height: 85px;
+}
+.time-count_separator{
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 75px;
+    text-align: center;
+    margin: 0 33px;
+}
+.time-count_text{
+line-height: 20px;
+font-weight: 300;
+font-size: 25px;
+}
+/*--------------------*/
 .sale-button {
-    padding: 0.35em 1.2em;
+    padding: 0.3em, 1.2em;
     border: 0.1em solid #FFFFFF;
     margin: 0 0.3em 0.3em 0;
     border-radius: 0.12em;
     color: #FFFFFF;
     text-align: center;
     transition: color 0.3s;
-    background-color: black;
+    background-color:rgb(43, 41, 53);
 }
 
 .sale-button:hover {
     color: #000000;
-    background-color: white;
+    background-color: rgb(23, 175, 175);
     cursor: pointer;
 }
-
-/*  bootstrap
-.cardo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.cardi{
-    padding: 20px;
-    margin: auto;
-    height: 35rem;
-    width: 25rem;
-}
-*/
