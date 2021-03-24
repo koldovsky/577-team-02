@@ -9,6 +9,7 @@ body {
 
 :root {
     scroll-behavior: smooth;
+    --itinerary-text-color:#FFFFFF;
 }
 
 header .tours-logo {
@@ -35,36 +36,29 @@ header .tours-logo {
 }
 
 .main-line {
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-
-.header {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    }
+
+.header-tourslogo {
     font-size: 25px;
     font-weight: 700;
     color: #fff;
     font-family: Dosis, sans-serif;
-    margin-top: 70px;
+    }
+.logo img{
+    width: 100px;
+    height: 100px;
 }
-
-.header-two {
+.header-tourslogotwo {
     font-size: 19px;
     font-weight: 500;
     color: #fff;
     font-family: Dosis, sans-serif;
-    position: relative;
-    margin-top: 70px;
-}
-
-.logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.navbar {
+    }
+header .container-fluid {
     color: #f1c324;
     font-size: 16px;
     font-weight: 700;
@@ -73,9 +67,8 @@ header .tours-logo {
 
 header .navbar-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex: 1;
-    align-items: center;
 }
 
 .banner {
@@ -101,18 +94,41 @@ header .navbar-nav {
 
 .column-page-two {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .yellow-text {
     color: yellow;
     font-size: 25px;
+    font-weight: bolder;
 }
 
 .product-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
 }
+@media (min-width: 420px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+@media (min-width: 520px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+@media (min-width: 620px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }
+}
+@media (min-width: 720px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    }
+}
+
 
 /*Tanya Tkach second page end*/
 
@@ -127,7 +143,6 @@ header .navbar-nav {
     padding: 90px 24px 70px 24px;
     background-image: url(../img/itinerary.png);
     background-size: cover;
-    background-color: black;
 }
 
 .h-itinerary {
@@ -135,19 +150,19 @@ header .navbar-nav {
     padding: 22px;
     font-family: Dosis, sans-serif;
     font-size: 34px;
-    color: #FFFFFF;
+    color: var(--itinerary-text-color);
 }
 
 .itinerary-day {
     font-family: Dosis, sans-serif;
     font-size: 22px;
-    color: #FFFFFF;
+    color: var(--itinerary-text-color);
 }
 
 .itinerary-description {
     font-family: Roboto, sans-serif;
     font-size: 17px;
-    color: #FFFFFF;
+    color: var(--itinerary-text-color);
 }
 
 .itinerary-img {
@@ -174,8 +189,6 @@ article>div {
 .h-itinerary {
     font-size: 48px;
 }
-
-/*Taras end*/
 
 /*Taras end*/
 
