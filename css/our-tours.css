@@ -19,7 +19,7 @@ header .tours-logo {
     min-height: 200px;
     display: flex;
     flex-direction: column;
-}
+    }
 
 @media (min-width: 620px) {
     .main-line {
@@ -37,7 +37,7 @@ header .tours-logo {
 
 .main-line {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 5px;
     }
@@ -71,11 +71,21 @@ header .navbar-nav {
     flex: 1;
 }
 
-.banner {
+@media (min-width: 620px) {
+    .banner {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    }
 }
+    
+.banner {
+    justify-content: center;
+    }
+#banner {
+    border-width: 10px;
+    border-color: #fff;
+    border-style: solid;
+    margin-bottom: 50px;
+    }
 
 /* Sasha second page end */
 
