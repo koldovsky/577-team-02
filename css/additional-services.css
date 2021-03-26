@@ -23,7 +23,7 @@
     }
 
 }
-.wanttotravel-lviv img {
+.largeimage-lviv {
     display: block;
     height: 100%;
     width: 100%;
@@ -31,7 +31,7 @@
 .want-to-travel {
     background-color: rgba(255, 255, 255, 0.09);
     padding: 50px;
-    margin: 0 100px 0 100px;
+    margin: 0 75px 0 75px;
     align-items: center;
 }
 #head-text-additional {
@@ -48,14 +48,13 @@
     font-size: 50px;
     line-height: 35px;
     text-align: center;
-    font-family: Dosis, sans-serif;
-}
+    }
 #firstline-contacts {
     color: #6e6e6e;
     font-size: 19px;
     font-weight: 500;     
     font-family: Dosis, sans-serif;
-    text-align: center;
+    text-align:  center;
    }
 
 /* Form part */
@@ -65,7 +64,7 @@
          
          display: flex;
          justify-content: space-around;         
-         align-items: center;
+         text-align: center;
          flex: 1;
      }
     
@@ -83,7 +82,7 @@
 .form-control input {  
   display: block;
   width: 100%;  
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   color: #242222;
   font-family: Roboto, sans-serif;
@@ -158,8 +157,7 @@
     line-height: 35px;
     padding-bottom: 50px;
     text-align: center;
-    font-family: Dosis, sans-serif;
-}
+    }
 @media (min-width: 640px) {
 
     .servicesprovide {
@@ -195,7 +193,8 @@
     font-weight: 700;
     line-height: 57px;
     color: #141414;    
-    font-family: Dosis, "sans-serif";  
+    font-family: Dosis, "sans-serif"; 
+    text-align: center; 
 }
 .tips {
     font-size: 25px;
