@@ -80,7 +80,7 @@
 }
 /*-------------------*/
 .sale-box{
-    background-color: rgb(238, 182, 40);
+    background:linear-gradient(to bottom, yellow ,orange);
     justify-content: center;
     text-align: center;
    padding: 8em;
