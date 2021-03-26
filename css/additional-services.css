@@ -2,11 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Sasha start */
 
+:root {
+    scroll-behavior: smooth;
+    --success-color: #23be04;
+    --error-color: #f50a0a;
+}
 .wanttotravel-lviv {
     background-color: black;
     background-size: cover;
     background-position: center;
-    min-height: 400px;
+    min-height: 350px;
     flex-direction: column;
 }
 @media (min-width: 801px) {
@@ -18,15 +23,15 @@
     }
 
 }
-.wanttotravel-lviv img {
+.largeimage-lviv {
     display: block;
     height: 100%;
     width: 100%;
 }
 .want-to-travel {
     background-color: rgba(255, 255, 255, 0.09);
-    padding: 50px;
-    margin: 0 100px 0 100px;
+    padding: 40px;
+    margin: 0 50px 0 50px;
     align-items: center;
 }
 #head-text-additional {
@@ -36,59 +41,105 @@
     font-family: Dosis, sans-serif;
     text-align: center;
     }
+
+.w-text-additional {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 35px;
+    text-align: center;
+    }
 #firstline-contacts {
     color: #6e6e6e;
     font-size: 19px;
     font-weight: 500;     
     font-family: Dosis, sans-serif;
-    text-align: center;
+    text-align:  center;
    }
+
+/* Form part */
 @media (min-width: 610px) {
     
-     .grey-box-contacts {
+     .form-control {
+         
+         display: flex;
+         justify-content: space-around;         
+         text-align: center;
+         flex: 1;
+     }
+    
+}   
+.formadd {
+    padding: 30px 40px;
+}
+.form-control {
+        background-color:rgba(255, 255, 255, 0.1);                
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        position: relative;
+        
+}
+.form-control input {  
+  display: block;
+  width: 100%;  
+  font-size: 14px;
+  font-weight: 400;
+  color: #242222;
+  font-family: Roboto, sans-serif;
+}
+
+.form-control input:focus {
+  outline: 0;
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+@media (min-width: 610px) {
+    
+     .formadd button {
          
          display: flex;
          justify-content: space-around;         
          align-items: center;
          flex: 1;
-    }
+     }
     
-}         
-.grey-box-contacts {
-    background-color:rgba(255, 255, 255, 0.1);
-    padding: 19px 21px 19px 21px;
-    margin: auto;
+}   
+
+.formadd button {
     color: #ffffff;
-    font-size: 12px;
-    font-weight: 400;
-    font-family: Roboto, sans-serif;
-    text-align: left; 
-    }
-@media (min-width: 610px) {
-    
-     .yellow-box-button {
-         
-         display: flex;
-         justify-content: space-around;         
-         align-items: center;
-         flex: 1;
-    }
-    
-}        
-.yellow-box-button {
-    background-color:yellow;
-    padding: 19px 21px 19px 21px;
-    margin: auto;
-    color: #ffffff;
+    background-color: #f1c324;    
     font-size: 12px;
     font-weight: 700;
     font-family: Roboto, sans-serif;
     text-align: center; 
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: space-around;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    }
+.yellow-box-button :hover {    
+    background-color: rgb(13, 172, 231);
+    cursor: pointer;
 }
+/* Form part end*/
+
 .white-part-additional {
     background-image: url(../img/bkgd-fon-addservices.jpg);
     background-size: cover;
@@ -99,6 +150,14 @@
     justify-content: center;
     flex-direction: column;
 }
+.w-text-additionals {
+    color: rgb(13, 172, 231);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 35px;
+    padding-bottom: 50px;
+    text-align: center;
+    }
 @media (min-width: 640px) {
 
     .servicesprovide {
@@ -129,13 +188,13 @@
     width: 100%;
 }
 #additionalservices {
-    padding: 100px;
-    margin: -15px;
+    padding-top: 50px;      
     font-size: 48px;
     font-weight: 700;
     line-height: 57px;
     color: #141414;    
-    font-family: Dosis, "sans-serif";  
+    font-family: Dosis, "sans-serif"; 
+    text-align: center; 
 }
 .tips {
     font-size: 25px;
@@ -151,4 +210,3 @@
     color: #6e6e6e;       
     font-family: Roboto, "sans-serif"; 
 }
-/* Sasha end*/

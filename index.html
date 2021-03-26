@@ -202,66 +202,80 @@
         <!-- Pavlo block end-->
 
         <!-- Sasha block start-->
-        <div class="wanttotravel-lviv">
-            <img class="largeimage-lviv" src="img/lviv-wanttotravel.jpg" alt="Lviv square Rynok">
-            <div class="want-to-travel">
-                <h5 id="head-text-additional">Want to travel around Ukraine with us?</h5>
-                <form method="POST" action="https://formspree.io/f/moqpozgq">
+         <div class="wanttotravel-lviv">
+        <img class="largeimage-lviv" src="img/lviv-wanttotravel.jpg" alt="Lviv square Rynok">
+        <div class="want-to-travel">
+            <h5 id="head-text-additional">Want to travel around Ukraine with us?</h5>
+            <div class="w-text-additional">....</div>
+            <!--Add Form-->
+            <div class="container-add">
+                <form id="formadd" class="formadd" method="POST" action="https://formspree.io/f/moqpozgq">
                     <p id="firstline-contacts">Leave your contacts and we will offer you the best tours!</p>
                     <br>
-                    <input class="grey-box-contacts" name="name" type="text" placeholder="Name" required>
-                    <br>
-                    <input class="grey-box-contacts" name="phone-number" type="text" placeholder="Phone number"
-                        required>
-                    <br>
-                    <input class="grey-box-contacts" name="email" type="text" placeholder="Email" required>
-                    <br>
-                    <button class="yellow-box-button" type="submit">SEND</button>
+                    <div class="form-control">
+                        <input type="text" id="name" placeholder="Name" />
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" id="phonenumber" placeholder="Phone number" />
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" id="email" placeholder="Email" />
+                        <small>Error message</small>
+                    </div>
+                    <div class="yellow-box-button">
+                    <button type="submit">SEND</button>
+                    </div>
                 </form>
             </div>
+            <!--Add Form-->
         </div>
-        <div class="white-part-additional">
-            <h6 id="additionalservices">Additional Services We Provide</h6>
-            <div class="servicesprovide">
-                <article>
-                    <img src="img/visaopening-addserv.png" alt="Kyiv">
-                    <br>
-                    <h2 class="tips">Visa Opening</h2>
-                    <p class="tables-additional">We provide visa support for citizens of any country. Our experts will
-                        advise on all
-                        visa
-                        issues.</p>
-                </article>
-                <article>
-                    <img src="img/privattransfer-addserv.png" alt="Plain">
-                    <br>
-                    <h2 class="tips">Private Transfer</h2>
-                    <p class="tables-additional">We can arrange a private transfer during your tour, book a hotel or
-                        offer you
-                        additional
-                        experience to
-                        enrich your experience in Ukraine.</p>
-                </article>
-                <article>
-                    <img src="img/photoreport-addserv.png" alt="Girl">
-                    <br>
-                    <h2 class="tips">Photo Report</h2>
-                    <p class="tables-additional">For an additional fee, you can get a full photo and video report on the
-                        trip, as well
-                        as a
-                        personal photo
-                        shoot.</p>
-                </article>
-                <article>
-                    <img src="img/medicalinsurance-addserv.png" alt="Backpackers">
-                    <br>
-                    <h2 class="tips">Medical Insurance</h2>
-                    <p class="tables-additional">Reliable medical insurance that really covers the risks if something
-                        happens while
-                        traveling.</p>
-                </article>
-            </div>
+    </div>
+
+    <div class="white-part-additional">
+        <h6 id="additionalservices">Additional Services We Provide</h6>
+        <div class="w-text-additionals">....</div>
+        <div class="servicesprovide">
+            <article>
+                <img src="img/visaopening-addserv.png" alt="Kyiv">
+                <br>
+                <h2 class="tips">Visa Opening</h2>
+                <p class="tables-additional">We provide visa support for citizens of any country. Our experts will
+                    advise on all
+                    visa
+                    issues.</p>
+            </article>
+            <article>
+                <img src="img/privattransfer-addserv.png" alt="Plain">
+                <br>
+                <h2 class="tips">Private Transfer</h2>
+                <p class="tables-additional">We can arrange a private transfer during your tour, book a hotel or offer
+                    you
+                    additional
+                    experience to
+                    enrich your experience in Ukraine.</p>
+            </article>
+            <article>
+                <img src="img/photoreport-addserv.png" alt="Girl">
+                <br>
+                <h2 class="tips">Photo Report</h2>
+                <p class="tables-additional">For an additional fee, you can get a full photo and video report on the
+                    trip, as well
+                    as a
+                    personal photo
+                    shoot.</p>
+            </article>
+            <article>
+                <img src="img/medicalinsurance-addserv.png" alt="Backpackers">
+                <br>
+                <h2 class="tips">Medical Insurance</h2>
+                <p class="tables-additional">Reliable medical insurance that really covers the risks if something
+                    happens while
+                    traveling.</p>
+            </article>
         </div>
+    </div>
         <!-- Sasha block end-->
 
 
@@ -390,6 +404,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
+    <script src="js/additional-services.js"></script>
     <script src="js/time-count.js"></script>
 </body>
 
