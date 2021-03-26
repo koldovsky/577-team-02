@@ -1,9 +1,6 @@
 /*-- Pavlo parts start */
 
-* {
-    max-width: 980px;
-    margin: 0;
-}
+
 
 #our-tours {
     text-align: center;
@@ -108,7 +105,7 @@ line-height: 85px;
 }
 .time-count_separator{
     font-size: 40px;
-    font-weight: 200;
+    font-weight: 500;
     line-height: 75px;
     text-align: center;
     margin: 0 33px;

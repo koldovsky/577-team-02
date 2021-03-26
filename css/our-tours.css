@@ -223,5 +223,11 @@ article>div {
     text-align: center;
     background-color: black;
 }
-
+.carousel-separator{
+    font-size: 70px;
+    font-weight: 500;
+    color:#f1c324;
+    text-align: center;
+ margin: 0 60px;
+}
 /* Pavlo second page end*/
