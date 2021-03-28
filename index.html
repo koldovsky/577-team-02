@@ -22,54 +22,61 @@
             <div class="logo-header">Tours in Ukraine</div>
             <div><img src="img/u-tour-logo.png" alt="logo"></div>
             <div><a class="logo-header" href="#email">U-tours@email.com</a></div>
+             <button class="open-btn" id="open">☰</button>
         </div>
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-solid">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="our-tours.html" id="navbarDropdownMenuLink"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Our tours
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="our-tours.html">City tours</a></li>
-                                <li><a class="dropdown-item" href="our-tours.html">Nature tourism</a></li>
-                                <li><a class="dropdown-item" href="our-tours.html">Extreme tours</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#reviews">Reviews</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-us">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacts">Contacts</a>
-                        </li>
-                    </ul>
+        <nav class="navbar">
+          <ul class="nav nav-pills">
+            <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#ourtours" role="button" aria-expanded="false">Our tours</a>
+               <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="ourtours.html">City Tours</a></li>
+                  <li><a class="dropdown-item" href="ourtours.html">Nature Tourism</a></li>
+                  <li><a class="dropdown-item" href="ourtours.html">Extreme Tours</a></li>
+              </ul>
+          </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#services">Services</a>
+           </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about-us">About us</a>
+            </li>
+           <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
+           </li>
+         </ul>
+      </nav>
+<!--MODAL WINDOW-->
+        <div class="modal-container" id="modal">
+            <div class="modal-nav-menu">
+                <div class="modal-menu">
+                    <button class="close-btn" id="close"> ✖ </button>
+                    <img src="img/u-tour-logo.png" alt="logo">
+                    <div class="modal-content-nav-menu">
+                        <ul class="main-nav-menu">
+                            <li><a href="our-tours.html"> Our tours</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                            <li><a href="#about-us">About us</a></li>
+                            <li><a href="#contact">Contacts</a></li>
+                            <li class="logo-header">Tours in Ukraine</li>
+                            <li><a class="logo-header" href="#email">U-tours@email.com</a></li>
+                    </div>
                 </div>
             </div>
-
-        </nav>
+        </div>  
         <div class="banner">
             <h1>U Tours</h1>
             <p class="text-header">Spectacular tours around Ukraine: cities, nature, experiences</p>
         </div>
     </header>
     <main>
-        <div class="about">
+        <div class="about" id="about-us">
             <div class="white-color">
                 <h2 class="logo-main">About us</h2>
+                <span class="point">....</span>
                 <p>U Trours is your local travel expert and tour operator, offering unforgettable handcrafted tours all
                     over
                     Ukraine. Our company specializes in small group tours with guaranteed departures, and tailor-made
@@ -407,6 +414,7 @@
         crossorigin="anonymous"></script>
     <script src="js/additional-services.js"></script>
     <script src="js/time-count.js"></script>
+     <script src="js/modal-window.js"></script>
 </body>
 
 </html>
