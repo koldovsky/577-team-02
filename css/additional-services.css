@@ -4,6 +4,7 @@
 
 :root {
     scroll-behavior: smooth;
+    --form-control-color: rgba(255, 255, 255, 0.09);
     --success-color: #23be04;
     --error-color: #f50a0a;
 }
@@ -30,7 +31,7 @@
 }
 .want-to-travel {
     background-color: rgba(255, 255, 255, 0.09);
-    padding: 40px;
+    padding: 15px;
     margin: 0 50px 0 50px;
     align-items: center;
 }
@@ -63,23 +64,27 @@
      .form-control {
          
          display: flex;
-         justify-content: space-around;         
+         justify-content: center;       
          text-align: center;
          flex: 1;
      }
     
 }   
 .formadd {
-    padding: 30px 40px;
-}
+    padding: 25px 30px;
+    }
 .form-control {
-        background-color:rgba(255, 255, 255, 0.1);                
-        margin-bottom: 15px;
+        width: 100%;
+        background-color: var(--form-control-color);
+        border-color: var(--form-control-color);
+        margin-bottom: 20px;                    
         padding-bottom: 15px;
         position: relative;
-        
-}
-.form-control input {  
+}        
+
+.form-control input { 
+  background-color: var(--form-control-color);
+  border-color: var(--form-control-color); 
   display: block;
   width: 100%;  
   font-size: 14px;
@@ -92,25 +97,31 @@
   outline: 0;
 }
 
-.form-control.success input {
+.form-control.success {
   border-color: var(--success-color);
 }
 
-.form-control.error input {
+.form-control.error {
   border-color: var(--error-color);
-}
+  }
 
 .form-control small {
   color: var(--error-color);
   position: absolute;
-  bottom: 0;
+  padding-left: 12px;
+  top: 30px;
+  bottom: 5px;
   left: 0;
   visibility: hidden;
 }
 
 .form-control.error small {
   visibility: visible;
-}
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  }
 @media (min-width: 610px) {
     
      .formadd button {
@@ -130,8 +141,7 @@
     font-weight: 700;
     font-family: Roboto, sans-serif;
     text-align: center; 
-    padding: 10px;
-    margin-top: 20px;
+    padding: 10px;    
     width: 100%;
     }
 .yellow-box-button :hover {    
