@@ -1,6 +1,5 @@
 
 /* Tanya Tkach block start */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 :root {
@@ -41,6 +40,7 @@ header {
     color: white;
     font-size: 22px;
     font-weight: bold;
+    text-decoration: none;
 }
 /* Modal window */
 .open-btn {
@@ -273,26 +273,24 @@ h1 {
     padding: 20px;
 }
 
-.button-container {
-    padding: 0.35em 1.2em;
-    border: 0.1em solid white;
-    border-radius: 0.12em;
-    color:white;
-    transition: color 0.7s;
-    background-color:transparent;
-    
-}
-.button-container button {
-    background-color:rgb(43, 172, 231);
+.button-container  {
+   background-color:rgb(43, 172, 231);
     cursor: pointer;
     font-weight: bold;
-    padding: 6px;
+    padding: 15px;
     margin-top: 3px;
     margin-bottom: 4px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.button-container-about {
+    padding: 20px;
 }
 
-.button-container :hover {
-    color: #000000;
+.button-container-about :hover {
     background-color:#f1c324;
     cursor: pointer;
 }
+
