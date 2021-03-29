@@ -22,7 +22,7 @@ header .background-content {
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    min-height: 400px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     }
@@ -271,4 +271,7 @@ align-items: center;
  margin: 0 60px;
 }
 /* Pavlo second page end*/
+<<<<<<< HEAD
 
+=======
+>>>>>>> d6af1a5bf73016616b79ca4f4d291004fe5c3e63
