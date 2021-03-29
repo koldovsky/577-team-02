@@ -13,15 +13,28 @@ body {
     --navbar-text-color: #f1c324;
 }
 
-header .tours-logo {
+header .background-header{
+    position: relative;
+}
+header .background-content {
     background-image: url(../img/bcgd-chornobyl.jpg);
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    min-height: 200px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     }
+header .background-header svg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+header .background-header svg path {
+  fill: #f6d3c0;
+}
+
 
 @media (min-width: 620px) {
     .main-line {
@@ -98,8 +111,9 @@ header .navbar-nav {
     margin-bottom: 50px;
     max-width: 100%;
     }
-    
+
 /* Sasha second page end */
+
 
 /* Tanya Tkach second page start*/
 
@@ -129,6 +143,7 @@ header .navbar-nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
+    padding-bottom: 130px;
 }
 @media (min-width: 420px) {
     .product-list {
