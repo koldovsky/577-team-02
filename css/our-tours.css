@@ -11,16 +11,31 @@ body {
 :root {
     scroll-behavior: smooth;
     --itinerary-text-color:#FFFFFF;
+    --navbar-text-color: #f1c324;
 }
 
-header .tours-logo {
+header .background-header{
+    position: relative;
+}
+header .background-content {
     background-image: url(../img/bcgd-chornobyl.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 200px;
+    max-width: 100%;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     }
+header .background-header svg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+header .background-header svg path {
+  fill: #f6d3c0;
+}
+
 
 @media (min-width: 620px) {
     .main-line {
@@ -46,7 +61,7 @@ header .tours-logo {
 .header-tourslogo {
     font-size: 25px;
     font-weight: 700;
-    color: #fff;
+    color: var(--itinerary-text-color);
     font-family: Dosis, sans-serif;
     }
 .logo img{
@@ -56,21 +71,30 @@ header .tours-logo {
 .header-tourslogotwo {
     font-size: 19px;
     font-weight: 500;
-    color: #fff;
+    color: var(--itinerary-text-color);
     font-family: Dosis, sans-serif;
+    text-decoration: underline;
     }
-header .container-fluid {
-    color: #f1c324;
-    font-size: 16px;
+.header-tourslogotwo :hover {
+    text-decoration: underline;
+}
+header .container-fluid {    
+    font-size: 20px;
     font-weight: 700;
     font-family: Roboto, sans-serif;
 }
 
 header .navbar-nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex: 1;
 }
+.navbar-dark,
+.navbar-nav,
+.nav-link {
+    color: var(--navbar-text-color) !important;    
+}
+
 
 @media (min-width: 620px) {
     .banner {
@@ -83,12 +107,14 @@ header .navbar-nav {
     }
 #banner {
     border-width: 10px;
-    border-color: #fff;
+    border-color: var(--itinerary-text-color);
     border-style: solid;
     margin-bottom: 50px;
+    max-width: 100%;
     }
 
 /* Sasha second page end */
+
 
 /* Tanya Tkach second page start*/
 
@@ -118,6 +144,7 @@ header .navbar-nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
+    padding-bottom: 130px;
 }
 @media (min-width: 420px) {
     .product-list {
@@ -206,8 +233,8 @@ article>div {
 /* Pavlo second page start*/
 
 .box-container {
-    
-    font-size: 18px;
+    background:linear-gradient(to bottom,rgb(167, 225, 248), white);
+    font-size: 20px;
     line-height: 200%;
     display: flex;
   padding: 20px;
@@ -217,22 +244,24 @@ article>div {
     list-style-type: square;
     text-align: left;
   align-items: center;
-    padding: 3em;
+   padding: 3em;
     width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
     display: block;
+  
 }
 
 .list-title {
     color: #f1c324;
     font-size: 30px;
+align-items: center;
 }
 
 .carousel-title {
     font-size: 50px;
     color: #f1c324;
     text-align: center;
-    background-color: black;
+    background-color:white;
 }
 .carousel-separator{
     font-size: 70px;

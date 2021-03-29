@@ -19,6 +19,9 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+.cards-block{
+    background:linear-gradient(to bottom, white, rgb(241, 241, 138));
+}
 .our-tours_separator{
     font-weight: 500;
     color: lightskyblue;
@@ -27,13 +30,13 @@
 
 }
 .card-body {
-    background-color: rgb(0, 0, 0);
+   
     text-align: left;
     justify-content: space-around;
 }
 
 .card-titles {
-    color: white;
+    color:orange;
 }
 
 .card-price {
@@ -42,7 +45,7 @@
 
 .card-text {
     font-size: 16px;
-    color: rgb(179, 171, 171);
+    color: rgb(48, 46, 46);
 }
 
 .card-image {
@@ -51,23 +54,21 @@
 }
 
 
-
 .card-button {
-    border: 0.1em solid #FFFFFF;
-    border-radius: 0.12em;
-    color: #FFFFFF;
-    text-align: center;
-    transition: color 0.3s;
-    background-color: transparent;
+    background-color:rgb(43, 172, 231);
+    cursor: pointer;
+    font-weight: bold;
     padding: 6px;
     margin-top: 3px;
     margin-bottom: 4px;
-    width: 100%
+    color: white;
+    border: 0;
+    border-radius: 5px;
 }
 
 .card-button:hover {
     color: #000000;
-    background-color: #FFFFFF;
+    background-color:#f1c324;
     cursor: pointer;
 }
 /*-------------------*/
@@ -108,11 +109,15 @@ font-weight: 300;
 font-size: 25px;
 }
 /*--------------------*/
+.button-info {
+    padding: 50px;
+   }
+   
 .sale-button {
     padding: 0.3em 1.2em;
-    border: 0.1em solid #FFFFFF;
+    border: 0;
+    border-radius: 5px;
     margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
     color: #FFFFFF;
     text-align: center;
     transition: color 0.3s;

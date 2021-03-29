@@ -22,54 +22,61 @@
             <div class="logo-header">Tours in Ukraine</div>
             <div><img src="img/u-tour-logo.png" alt="logo"></div>
             <div><a class="logo-header" href="#email">U-tours@email.com</a></div>
+             <button class="open-btn" id="open">☰</button>
         </div>
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-solid">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="our-tours.html" id="navbarDropdownMenuLink"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Our tours
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="our-tours.html">City tours</a></li>
-                                <li><a class="dropdown-item" href="our-tours.html">Nature tourism</a></li>
-                                <li><a class="dropdown-item" href="our-tours.html">Extreme tours</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#reviews">Reviews</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-us">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacts">Contacts</a>
-                        </li>
-                    </ul>
+        <nav class="navbar">
+          <ul class="nav nav-pills">
+            <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#ourtours" role="button" aria-expanded="false">Our tours</a>
+               <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="our-tours.html">City Tours</a></li>
+                  <li><a class="dropdown-item" href="our-tours.html">Nature Tourism</a></li>
+                  <li><a class="dropdown-item" href="our-tours.html">Extreme Tours</a></li>
+              </ul>
+          </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#services">Services</a>
+           </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about-us">About us</a>
+            </li>
+           <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
+           </li>
+         </ul>
+      </nav>
+<!--MODAL WINDOW-->
+        <div class="modal-container" id="modal">
+            <div class="modal-nav-menu">
+                <div class="modal-menu">
+                    <button class="close-btn" id="close"> ✖ </button>
+                    <img src="img/u-tour-logo.png" alt="logo">
+                    <div class="modal-content-nav-menu">
+                        <ul class="main-nav-menu">
+                            <li><a href="our-tours.html"> Our tours</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                            <li><a href="#about-us">About us</a></li>
+                            <li><a href="#contact">Contacts</a></li>
+                            <li class="logo-header">Tours in Ukraine</li>
+                            <li><a class="logo-header" href="#email">U-tours@email.com</a></li>
+                    </div>
                 </div>
             </div>
-
-        </nav>
+        </div>  
         <div class="banner">
             <h1>U Tours</h1>
             <p class="text-header">Spectacular tours around Ukraine: cities, nature, experiences</p>
         </div>
     </header>
     <main>
-        <div class="about">
+        <div class="about" id="about-us">
             <div class="white-color">
                 <h2 class="logo-main">About us</h2>
+                <span class="point">....</span>
                 <p>U Trours is your local travel expert and tour operator, offering unforgettable handcrafted tours all
                     over
                     Ukraine. Our company specializes in small group tours with guaranteed departures, and tailor-made
@@ -86,7 +93,7 @@
         <!--Tanya Tkach block end-->
 
         <!--Pavlo block start-->
-        <div>
+        <div class="cards-block">
             <div>
                 <h2 class="yellow-text" id="our-tours">Our Tours</h2>
             </div>
@@ -193,7 +200,7 @@
 
                 <a href="https://www.youtube.com/"><img src="img/images/youtube.svg" alt="YouTube"></a>
             </div>
-            <br>
+            
             <div>
                 <a class="sale-button" href="our-tours.html">GET 10% OFF</a>
             </div>
@@ -280,50 +287,7 @@
         <!-- Sasha block end-->
 
 
-        <!--Mariana's block start-->
-        <section>
-            <!--Customers Section... Add Carousel-->
-            <div class="customer-image">
-                <img src="img/carousel-img1.jpg" alt="Ahmed Helmy">
-            </div>
-            <div id="customers-text-block-egypt">
-                <h2>Our customers say</h2>
-                <p>I was very happy to travel with U Tours. Best guides ever. My tour was perfectly organized.</p>
-                <h3>Ahmed Helmy</h3>
-                <h5>Egypt</h5>
-            </div>
-            <div>
-                <img width="600" src="img/carousel-img2.jpg" alt="Geff Gordons">
-            </div>
-            <div id="customers-text-block-uk">
-                <h2>Our customers say</h2>
-                <p>Last year I travelled with U Tours for the first time. It was great time in Kyiv and Chornobyl so I
-                    decided<br>
-                    to come back this year to see more of Ukraine. This time my tour included western part of the
-                    country,<br>
-                    Lviv and Carpathian mountains. Absolutely stunning! U Tour is a great agency.</p>
-                <h3>Geff Gordons</h3>
-                <h5>UK</h5>
-            </div>
-            <div>
-                <img width="600" src="img/carousel-img3.jpg" alt="Elisabeth Smith">
-            </div>
-            <div id="customers-text-block-canada">
-                <h2>Our customers say</h2>
-                <p>U Tours is a reliable company that provides exclusive tours for their clients.<br>
-                    Thanks a lot for a great experience in Ukraine.</p>
-                <h3>Elisabeth Smith</h3>
-                <h5>Canada</h5>
-            </div>
-        </section>
-        <section class="ready-section">
-            <!--Ready to Go Section... fix a background-->
-            <h2>Ready to Go to Ukraine?</h2>
-            <p>Press the button and get the individual offer with the best price on the selected tour!</p>
-            <a href="#Contacts" class="button">Request a quote</a>
-        </section>
-        <!--Mariana's block end-->
-
+      <!--Mariana's block here-->
 
         <!--Taras start-->
         <section id="contacts">
@@ -407,6 +371,7 @@
         crossorigin="anonymous"></script>
     <script src="js/additional-services.js"></script>
     <script src="js/time-count.js"></script>
+     <script src="js/modal-window.js"></script>
 </body>
 
 </html>
