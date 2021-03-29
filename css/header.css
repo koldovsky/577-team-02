@@ -112,7 +112,7 @@ button:focus {
 }
 .close-btn {
     font-size: 35px;
-    color: var(--main-color);
+    color: white;
     text-decoration: none;
     background: transparent;
     font-size: 25px;
@@ -135,15 +135,18 @@ button:focus {
     text-decoration: none;
     font-weight: bold;
 }
-
 .main-nav-menu li {
     list-style: none;
     line-height: 3;
 }
+.main-nav-menu li :hover {
+    color: white;
+    cursor: pointer;
+}
 
 .btn-contacts a::after {
     content: "   →";
-    color: var(--main-color);
+    color: white;
 }
 
 .btn-contacts a {
@@ -157,25 +160,13 @@ button:focus {
     background-color: transparent;
 }
 
-.btn-contacts a:hover {
-    color: var(--secondary-color);
-    background-color: var(--main-color);
-    cursor: pointer;
-}
-
-.btn-contacts a:hover::after {
-    color: var(--secondary-color);
-}
-
 .main-nav-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0%;
-    color: #fff;
     padding-left: 50px;
 }
-
 
 @keyframes modalopen {
   from {
@@ -187,6 +178,7 @@ button:focus {
   }
 }
 /* Modal window */
+
 header .navbar {
     display: flex;
     justify-content: center;
@@ -207,6 +199,9 @@ header .navbar a {
     .nav-item a {
          display: none;
     }
+  }
+  header .navbar :hover {
+      color: white;
   }
 
 h1 {
@@ -245,12 +240,12 @@ h1 {
 }
 
 .point {
-    list-style-type: square;
     font-weight: 500;
     color: lightskyblue;
     font-size: 60px;
     padding-left: 20px;
 }
+
 
 @media (max-width: 620px) {
     .about {
