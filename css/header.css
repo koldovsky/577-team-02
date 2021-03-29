@@ -203,6 +203,10 @@ header .navbar a {
   header .navbar :hover {
       color: white;
   }
+  
+  .navbar .dropdown-menu a {
+      color: #000000;
+  }
 
 h1 {
     color: #f1c324;
