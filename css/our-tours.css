@@ -21,7 +21,7 @@ header .background-content {
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    min-height: 400px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     }
