@@ -25,7 +25,7 @@
 .our-tours_separator{
     font-weight: 500;
     color: lightskyblue;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
 
 }
@@ -58,7 +58,7 @@
     background-color:rgb(43, 172, 231);
     cursor: pointer;
     font-weight: bold;
-    padding: 6px;
+    padding: 8px;
     margin-top: 3px;
     margin-bottom: 4px;
     color: white;
@@ -98,7 +98,7 @@ font-weight: 600;
 line-height: 85px;
 }
 .time-count_separator{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 500;
     line-height: 75px;
     text-align: center;
@@ -115,7 +115,7 @@ font-size: 25px;
    }
    
 .sale-button {
-    padding: 0.8em 1.2em;
+    padding: 1em 1.2em;
     border: 0;
     border-radius: 5px;
     margin: 0 0.3em 0.3em 0;
