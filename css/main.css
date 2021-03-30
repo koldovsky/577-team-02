@@ -30,7 +30,6 @@
 
 }
 .card-body {
-   
     text-align: left;
     justify-content: space-around;
 }
@@ -113,7 +112,10 @@ font-size: 25px;
 .button-info {
     padding: 50px;
    }
-   
+
+    .btn-hov::before{
+        content: "\f16d";
+    }
 .sale-button {
     padding: 1em 1.2em;
     border: 0;
