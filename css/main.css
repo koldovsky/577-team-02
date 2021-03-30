@@ -33,7 +33,6 @@
 
 .card-body {
     text-align: left;
-    justify-content: space-around;
 }
 
 .card-titles {
@@ -51,7 +50,6 @@
 
 .card-image {
     width: 100%;
-    display: block;
 }
 
 .card-button {
@@ -90,6 +88,7 @@
 
 .time-count_content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -129,7 +128,7 @@
     transition: color 0.3s;
     background-color: rgb(43, 41, 53);
     text-decoration: none;
-display:inline-block;
+    display: inline-block;
 }
 
 .sale-button:hover {
