@@ -84,6 +84,7 @@ button:focus {
 .modal-container.show-modal {
   display: block;
 }
+
 .modal-nav-menu {
   background-color: black;
   border-radius: 5px;
@@ -139,8 +140,9 @@ button:focus {
     list-style: none;
     line-height: 3;
 }
+
 .main-nav-menu li :hover {
-    color: white;
+    color:white;
     cursor: pointer;
 }
 
@@ -158,6 +160,12 @@ button:focus {
     text-align: center;
     transition: color 0.7s;
     background-color: transparent;
+}
+.modal-container .dropdown-menu a {
+    color: black;
+}
+.modal-container .dropdown-menu {
+    border-bottom: transparent;
 }
 
 .main-nav-menu {
