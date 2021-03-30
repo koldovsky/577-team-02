@@ -144,18 +144,34 @@ header .navbar-nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
+    align-items: center;
     padding-bottom: 130px;
 }
+
+@media (min-width: 320px) {
+    .product-list {
+        grid-template-columns: 1fr;
+    }
+    .column-page-two {
+        text-align: center;
+    }
+    .yellow-text {
+        text-align: center;
+    }
+}
+
 @media (min-width: 420px) {
     .product-list {
         grid-template-columns: 1fr 1fr; 
     }
 }
+
 @media (min-width: 520px) {
     .product-list {
         grid-template-columns: 1fr 1fr 1fr; 
     }
 }
+
 @media (min-width: 620px) {
     .product-list {
         grid-template-columns: 1fr 1fr 1fr 1fr; 

@@ -27,7 +27,7 @@ header {
     background-image:url(../img/chernivtsi.jpg);
     background-position: center;
     background-size: cover;
-    min-width: 400px;
+    min-width: 320px;
     min-height: 750px;
 }
 
@@ -228,6 +228,11 @@ h1 {
       font-size: 110px;  
     }
 }
+@media (max-width: 520px) {
+    h1 {
+      font-size: 80px;  
+    }
+}
 
 .banner {
     display: flex;
@@ -236,10 +241,12 @@ h1 {
     flex-direction: column;
     padding-top: 100px;
 }
+
 .text-header {
     color: #f1c324;
     font-size: 22px;
     font-weight: bold;
+    text-align: center;
 }
 
 .white-color {
