@@ -194,14 +194,14 @@ header .navbar-nav {
 }
 
 #itinerary {
-    padding: 90px 24px 70px 24px;
+    padding: 10px 24px 70px 24px;
     background-image: url(../img/itinerary.png);
     background-size: cover;
 }
 
 .h-itinerary {
     text-align: center;
-    padding: 22px;
+    padding: 20px 40px 90px 40px;
     font-family: Dosis, sans-serif;
     font-size: 34px;
     color: var(--itinerary-text-color);
@@ -233,6 +233,9 @@ header .navbar-nav {
         display: grid;
         grid-template-columns: 40% 60%;
         align-items: center;
+    }
+    .itinerary-img {
+        margin: 0 0 20px 0;
     }
 }
 
