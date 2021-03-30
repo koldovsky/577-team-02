@@ -8,8 +8,8 @@
 
 @media(min-width: 640px) {
     .cards {
-       display: grid;
-       grid-gap: 5px;
+        display: grid;
+        grid-gap: 5px;
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -19,23 +19,25 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-.cards-block{
-    background:linear-gradient(to bottom, white, rgb(241, 241, 138));
+
+.cards-block {
+    background: linear-gradient(to bottom, white, rgb(241, 241, 138));
 }
-.our-tours_separator{
+
+.our-tours_separator {
     font-weight: 500;
-    color: lightskyblue;
+    color: rgb(43, 172, 231);
     font-size: 60px;
     text-align: center;
-
 }
+
 .card-body {
     text-align: left;
     justify-content: space-around;
 }
 
 .card-titles {
-    color:orange;
+    color: orange;
 }
 
 .card-price {
@@ -52,9 +54,8 @@
     display: block;
 }
 
-
 .card-button {
-    background-color:rgb(43, 172, 231);
+    background-color: rgb(43, 172, 231);
     cursor: pointer;
     font-weight: bold;
     padding: 8px;
@@ -68,54 +69,56 @@
 
 .card-button:hover {
     color: #000000;
-    background-color:#f1c324;
+    background-color: #f1c324;
     cursor: pointer;
 }
+
 /*-------------------*/
-.sale-box{
-    background:linear-gradient(to bottom, yellow ,orange);
+
+.sale-box {
+    background: linear-gradient(to bottom, yellow, orange);
     justify-content: center;
     text-align: center;
-   padding: 8em;
+    padding: 8em;
 }
 
-
-.sale-title{
+.sale-title {
     font-size: 70px;
     text-align: center;
     line-height: 50px;
-
 }
 
-.time-count_content{
-display: flex;
-justify-content: center;
+.time-count_content {
+    display: flex;
+    justify-content: center;
 }
-.time-count_val{
-font-size: 50px;
-font-weight: 600;
-line-height: 85px;
+
+.time-count_val {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 85px;
 }
-.time-count_separator{
+
+.time-count_separator {
     font-size: 60px;
     font-weight: 500;
     line-height: 75px;
     text-align: center;
     margin: 0 33px;
 }
-.time-count_text{
-line-height: 20px;
-font-weight: 300;
-font-size: 25px;
+
+.time-count_text {
+    line-height: 20px;
+    font-weight: 300;
+    font-size: 25px;
 }
+
 /*--------------------*/
+
 .button-info {
     padding: 50px;
-   }
+}
 
-    .btn-hov::before{
-        content: "\f16d";
-    }
 .sale-button {
     padding: 1em 1.2em;
     border: 0;
@@ -124,12 +127,13 @@ font-size: 25px;
     color: #FFFFFF;
     text-align: center;
     transition: color 0.3s;
-    background-color:rgb(43, 41, 53);
+    background-color: rgb(43, 41, 53);
     text-decoration: none;
+display:inline-block;
 }
 
 .sale-button:hover {
     color: #000000;
-    background-color: rgb(23, 175, 175);
+    background-color: rgb(43, 172, 231);
     cursor: pointer;
 }
