@@ -107,7 +107,7 @@ header .navbar-nav {
     }
 #banner {
     border-width: 10px;
-    border-color: var(--itinerary-text-color);
+    border-color: #e3d9c5;
     border-style: solid;
     margin-bottom: 50px;
     max-width: 100%;
