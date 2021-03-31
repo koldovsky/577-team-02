@@ -1,0 +1,115 @@
+
+/* Mariana CSS Page 1*/
+.slider {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    height: auto;
+    margin-bottom: 15px;
+}
+.item {
+    display: flex;   
+}
+.hide {
+    display: none;
+}
+.slider .item img {
+object-fit: cover;
+    width: 50%;
+    border: none;
+    box-shadow: none;
+}
+.slideText {
+object-fit: cover;
+    width: 50%;
+    border: none;
+    box-shadow: none;
+    background-color: white;
+    color: black;
+    font-size: 14px; 
+}
+.slider-dots {
+    text-align: center;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+.ready-section {
+    background-image: url(../img/maidan.jpg);
+    background-position: center;
+    background-size: cover;
+    min-width: 400px;
+    min-height: 500px;
+    text-align: center;
+}
+.ready-section-text {
+    color: black;
+    font-size: 20px;
+    padding-top: 3em;
+    font-weight: bold;
+}
+.button-ready {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    color: white;
+   background-color:rgb(43, 172, 231);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.button-ready-section {
+    padding: 20px;
+}
+.button-ready-section :hover {
+    background-color: orange;
+    cursor: pointer;
+}
+.customer-heading {
+    font-family: Dosis, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: black;
+}   
+.customer-dots {
+    color: #24B8F1;
+    list-style: square;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 35px;
+    text-align: center;
+    }
+.customer-text {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #141414;
+    margin-top: 0.1em;
+}
+.customer-name {
+    font-family: Dosis, sans-serif;
+    font-size: 22px;
+    color: #141414;
+    font-weight: bold;
+}
+.customer-country {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #24B8F1;
+}
+/* Mariana CSS End Page 1*/
