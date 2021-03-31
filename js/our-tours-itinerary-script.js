@@ -45,6 +45,6 @@ async function fetchItinerary(order) {
     renderItineraryDays(itinerary, order);
 }
 
-fetchItinerary('ascending');
+fetchItinerary();
 
 // renderItineraryDays(JSON.parse(itineraryDaysJSON));

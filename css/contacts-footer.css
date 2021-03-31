@@ -158,7 +158,26 @@ footer a {
         justify-content: center;
     }
 }
-#footer-img {
+.footer-carousel {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+.footer-img {
+    display: block;
    width: 100%;
+}
+.footer-carousel>button {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--hcolor);
+}
+@media (min-width: 800px) {
+    .footer-carousel {
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+    }
+    .footer-carousel>button {
+        font-size: 40px;
+    }
 }
 /*Taras end*/
