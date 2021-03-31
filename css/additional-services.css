@@ -8,6 +8,7 @@
     --success-color: #23be04;
     --error-color: #f50a0a;
 }
+
 .wanttotravel-lviv {
     background-color: black;
     background-size: cover;
@@ -15,33 +16,35 @@
     min-height: 350px;
     flex-direction: column;
 }
+
 @media (min-width: 801px) {
-    
     .wanttotravel-lviv {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
     }
-
 }
+
 .largeimage-lviv {
     display: block;
     height: 100%;
     width: 100%;
 }
+
 .want-to-travel {
     background-color: rgba(255, 255, 255, 0.09);
     padding: 15px;
     margin: 20px;
     align-items: center;
 }
+
 #head-text-additional {
     color: #f1c324;
     font-size: 32px;
     font-weight: 700;
     font-family: Dosis, sans-serif;
     text-align: center;
-    }
+}
 
 .w-text-additional {
     color: #ffffff;
@@ -49,105 +52,106 @@
     font-size: 50px;
     line-height: 35px;
     text-align: center;
-    }
+}
+
 #firstline-contacts {
     color: #6e6e6e;
     font-size: 19px;
-    font-weight: 500;     
+    font-weight: 500;
     font-family: Dosis, sans-serif;
-    text-align:  center;
-   }
+    text-align: center;
+}
 
 /* Form part */
+
 @media (min-width: 610px) {
-    
-     .form-control {
-         
-         display: flex;
-         justify-content: center;       
-         text-align: center;
-         flex: 1;
-     }
-    
-}   
+    .form-control {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex: 1;
+    }
+}
+
 .formadd {
     padding: 25px 30px;
-    }
-.form-control {
-        width: 100%;
-        background-color: var(--form-control-color);
-        border-color: var(--form-control-color);
-        margin-bottom: 20px;                    
-        padding-bottom: 15px;
-        position: relative;
-}        
+}
 
-.form-control input { 
-  background-color: var(--form-control-color);
-  border-color: var(--form-control-color); 
-  display: block;
-  width: 100%;  
-  font-size: 14px;
-  font-weight: 400;
-  color: #242222;
-  font-family: Roboto, sans-serif;
+.form-control {
+    width: 100%;
+    background-color: var(--form-control-color);
+    border-color: var(--form-control-color);
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.form-control input {
+    background-color: var(--form-control-color);
+    border-color: var(--form-control-color);
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #242222;
+    font-family: Roboto, sans-serif;
 }
 
 .form-control input:focus {
-  outline: 0;
+    outline: 0;
 }
 
 .form-control.success {
-  border-color: var(--success-color);
+    border-color: var(--success-color);
 }
 
 .form-control.error {
-  border-color: var(--error-color);
-  }
+    border-color: var(--error-color);
+}
 
 .form-control small {
-  color: var(--error-color);
-  position: absolute;
-  padding-left: 12px;
-  top: 30px;
-  bottom: 5px;
-  left: 0;
-  visibility: hidden;
+    color: var(--error-color);
+    position: absolute;
+    padding-left: 12px;
+    top: 30px;
+    bottom: 5px;
+    left: 0;
+    visibility: hidden;
 }
 
 .form-control.error small {
-  visibility: visible;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  }
+    visibility: visible;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
 @media (min-width: 610px) {
-    
-     .formadd button {
-         
-         display: flex;
-         justify-content: space-around;         
-         align-items: center;
-         flex: 1;
-     }
-    
-}   
+    .formadd button {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex: 1;
+    }
+}
 
 .formadd button {
     color: #ffffff;
-    background-color: #f1c324;    
+    background-color: #f1c324;
     font-size: 12px;
     font-weight: 700;
     font-family: Roboto, sans-serif;
-    text-align: center; 
-    padding: 10px;    
+    text-align: center;
+    padding: 10px;
     width: 100%;
-    }
-.yellow-box-button :hover {    
+}
+
+.yellow-box-button :hover {
     background-color: rgb(13, 172, 231);
     cursor: pointer;
 }
+
 /* Form part end*/
 
 .white-part-additional {
@@ -160,6 +164,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
 .w-text-additionals {
     color: rgb(13, 172, 231);
     font-weight: 700;
@@ -167,56 +172,59 @@
     line-height: 35px;
     padding-bottom: 50px;
     text-align: center;
-    }
-@media (min-width: 640px) {
+}
 
+@media (min-width: 640px) {
     .servicesprovide {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
 }
-@media (min-width: 801px) {
 
+@media (min-width: 801px) {
     .servicesprovide {
         grid-template-columns: 1fr 1fr 1fr;
     }
-
 }
-@media (min-width: 980px) {
 
+@media (min-width: 980px) {
     .servicesprovide {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
 .servicesprovide article {
     padding: 10px;
     margin: 0 0 5px 0;
 }
+
 .servicesprovide article img {
     display: block;
     width: 100%;
 }
+
 #additionalservices {
-    padding-top: 50px;      
+    padding-top: 50px;
     font-size: 48px;
     font-weight: 700;
     line-height: 57px;
-    color: #141414;    
-    font-family: Dosis, "sans-serif"; 
-    text-align: center; 
+    color: #141414;
+    font-family: Dosis, "sans-serif";
+    text-align: center;
 }
+
 .tips {
     font-size: 25px;
     font-weight: 700;
     color: #141414;
     text-align: center;
-    font-family: Dosis, "sans-serif"; 
+    font-family: Dosis, "sans-serif";
 }
+
 .tables-additional {
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
-    color: #6e6e6e;       
-    font-family: Roboto, "sans-serif"; 
+    color: #6e6e6e;
+    font-family: Roboto, "sans-serif";
 }
