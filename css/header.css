@@ -12,6 +12,7 @@
     --footer-horer-color: rgb(8, 233, 233);
     /*contacts and footter colors*/
 }
+
 body {
     max-width: 1080px;
     margin: auto;
@@ -27,7 +28,7 @@ header {
     background-image:url(../img/chernivtsi.jpg);
     background-position: center;
     background-size: cover;
-    min-width: 400px;
+    min-width: 320px;
     min-height: 750px;
 }
 
@@ -54,56 +55,56 @@ header {
 }
 button,
 input[type='submit'] {
-  background-color: transparent;
-  border: 0;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  padding: 8px 12px;
+    background-color: transparent;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
 }
 button:focus {
-  outline: none;
+    outline: none;
 }
 .container {
-  padding: 15px;
-  margin: 0 auto;
-  max-width: 100%;
-  width: 800px;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 100%;
+    Width: 800px;
 }
 
 .modal-container {
-  background-color: rgba(0, 0, 0, 0.6);
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .modal-container.show-modal {
-  display: block;
+    display: block;
 }
+
 .modal-nav-menu {
-  background-color: black;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  max-width: 100%;
-  width: 100%;
-  animation-name: modalopen;
-  animation-duration: var(--modal-duration);
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    width: 100%;
+    animation-name: modalopen;
 }
 
 .modal-menu {
-  background: black;
-  color:white;
-  padding: 50px;;
+    background: black;
+    color:white;
+    padding: 50px;;
 }
 
 .modal-menu img {
@@ -125,7 +126,7 @@ button:focus {
 
 
 .modal-content-nav-menu {
-  padding: 20px;
+    padding: 20px;
 }
 
 .main-nav-menu a {
@@ -135,12 +136,14 @@ button:focus {
     text-decoration: none;
     font-weight: bold;
 }
+
 .main-nav-menu li {
     list-style: none;
     line-height: 3;
 }
+
 .main-nav-menu li :hover {
-    color: white;
+    color:white;
     cursor: pointer;
 }
 
@@ -158,6 +161,12 @@ button:focus {
     text-align: center;
     transition: color 0.7s;
     background-color: transparent;
+}
+.modal-container .dropdown-menu a {
+    color: black;
+}
+.modal-container .dropdown-menu {
+    border-bottom: transparent;
 }
 
 .main-nav-menu {
@@ -220,6 +229,11 @@ h1 {
       font-size: 110px;  
     }
 }
+@media (max-width: 520px) {
+    h1 {
+      font-size: 80px;  
+    }
+}
 
 .banner {
     display: flex;
@@ -228,16 +242,19 @@ h1 {
     flex-direction: column;
     padding-top: 100px;
 }
+
 .text-header {
     color: #f1c324;
     font-size: 22px;
     font-weight: bold;
+    text-align: center;
 }
 
 .white-color {
     background-color: white;
     padding-left: 20px;
 }
+
 .about {
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -250,12 +267,12 @@ h1 {
     padding-left: 20px;
 }
 
-
 @media (max-width: 620px) {
     .about {
      grid-template-columns:1fr;  
     }
 }
+
 .logo-main {
     font-size: 50px;
     padding: 20px;
@@ -274,7 +291,7 @@ h1 {
 }
 
 .button-container  {
-   background-color:rgb(43, 172, 231);
+    background-color:rgb(43, 172, 231);
     cursor: pointer;
     font-weight: bold;
     padding: 10px;
@@ -285,6 +302,7 @@ h1 {
     border-radius: 5px;
     text-decoration: none;
 }
+
 .button-container-about {
     padding: 20px;
 }
