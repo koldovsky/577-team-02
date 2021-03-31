@@ -5,18 +5,18 @@
 body {
     max-width: 1080px;
     margin: auto;
-  
 }
 
 :root {
     scroll-behavior: smooth;
-    --itinerary-text-color:#FFFFFF;
+    --itinerary-text-color: #FFFFFF;
     --navbar-text-color: #f1c324;
 }
 
-header .background-header{
+header .background-header {
     position: relative;
 }
+
 header .background-content {
     background-image: url(../img/bcgd-chornobyl.jpg);
     background-size: cover;
@@ -25,17 +25,18 @@ header .background-content {
     min-height: 200px;
     display: flex;
     flex-direction: column;
-    }
+}
+
 header .background-header svg {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
 }
-header .background-header svg path {
-  fill: #f6d3c0;
-}
 
+header .background-header svg path {
+    fill: #f6d3c0;
+}
 
 @media (min-width: 620px) {
     .main-line {
@@ -56,29 +57,33 @@ header .background-header svg path {
     justify-content: space-around;
     align-items: center;
     padding: 5px;
-    }
+}
 
 .header-tourslogo {
     font-size: 25px;
     font-weight: 700;
     color: var(--itinerary-text-color);
     font-family: Dosis, sans-serif;
-    }
-.logo img{
+}
+
+.logo img {
     width: 100px;
     height: 100px;
 }
+
 .header-tourslogotwo {
     font-size: 19px;
     font-weight: 500;
     color: var(--itinerary-text-color);
     font-family: Dosis, sans-serif;
     text-decoration: underline;
-    }
+}
+
 .header-tourslogotwo :hover {
     text-decoration: underline;
 }
-header .container-fluid {    
+
+header .container-fluid {
     font-size: 20px;
     font-weight: 700;
     font-family: Roboto, sans-serif;
@@ -89,32 +94,30 @@ header .navbar-nav {
     justify-content: center;
     flex: 1;
 }
-.navbar-dark,
-.navbar-nav,
-.nav-link {
-    color: var(--navbar-text-color) !important;    
-}
 
+.navbar-dark, .navbar-nav, .nav-link {
+    color: var(--navbar-text-color) !important;
+}
 
 @media (min-width: 620px) {
     .banner {
-    display: flex;
+        display: flex;
     }
 }
-    
+
 .banner {
     justify-content: center;
-    }
+}
+
 #banner {
     border-width: 10px;
-    border-color: var(--itinerary-text-color);
+    border-color: #e3d9c5;
     border-style: solid;
     margin-bottom: 50px;
     max-width: 100%;
-    }
+}
 
 /* Sasha second page end */
-
 
 /* Tanya Tkach second page start*/
 
@@ -162,27 +165,27 @@ header .navbar-nav {
 
 @media (min-width: 420px) {
     .product-list {
-        grid-template-columns: 1fr 1fr; 
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (min-width: 520px) {
     .product-list {
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media (min-width: 620px) {
     .product-list {
-        grid-template-columns: 1fr 1fr 1fr 1fr; 
-    }
-}
-@media (min-width: 720px) {
-    .product-list {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
+@media (min-width: 720px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
 
 /*Tanya Tkach second page end*/
 
@@ -258,12 +261,11 @@ article>div {
 /* Pavlo second page start*/
 
 .box-container {
-    background:linear-gradient(to bottom,rgb(49, 8, 22), white);
+    background: linear-gradient(to bottom, rgb(49, 8, 22), white);
     font-size: 20px;
     line-height: 200%;
     display: flex;
-  padding: 20px;
-
+    padding: 20px;
 }
 
 .list-info {
@@ -275,20 +277,22 @@ article>div {
 .list-title {
     color: #f1c324;
     font-size: 30px;
-align-items: center;
+    align-items: center;
 }
 
 .carousel-title {
     font-size: 50px;
     color: #f1c324;
     text-align: center;
-    background-color:white;
+    background-color: white;
 }
-.carousel-separator{
+
+.carousel-separator {
     font-size: 70px;
     font-weight: 500;
-    color:#f1c324;
+    color: #f1c324;
     text-align: center;
- margin: 0 60px;
+    margin: 0 60px;
 }
+
 /* Pavlo second page end*/
