@@ -209,11 +209,11 @@ header .navbar-nav {
     font-size: 34px;
     color: var(--itinerary-text-color);
 }
-
 .itinerary-day {
     font-family: Dosis, sans-serif;
     font-size: 22px;
     color: var(--itinerary-text-color);
+    padding-top: 30px;
 }
 
 .itinerary-description {
@@ -230,6 +230,13 @@ header .navbar-nav {
     min-height: 231px;
     min-width: 272px;
 }
+article>div {
+    padding-left: 0px;
+}
+
+.h-itinerary {
+    font-size: 48px;
+}
 
 @media (min-width:800px) {
     article {
@@ -240,15 +247,14 @@ header .navbar-nav {
     .itinerary-img {
         margin: 0 0 20px 0;
     }
+    .itinerary-day {
+        padding: 0;
+    }
+    article>div {
+        padding-left: 30px;
+    }
 }
 
-article>div {
-    padding-left: 30px;
-}
-
-.h-itinerary {
-    font-size: 48px;
-}
 
 /*Taras end*/
 
