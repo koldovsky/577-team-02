@@ -77,11 +77,11 @@
     background: linear-gradient(to bottom, yellow, orange);
     justify-content: center;
     text-align: center;
-    padding: 8em;
+    padding: 6em 0 6em 0;
 }
 
 .sale-title {
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
     line-height: 50px;
 }
@@ -99,11 +99,11 @@
 }
 
 .time-count_separator {
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 50px;
+    font-weight: 600;
     line-height: 75px;
     text-align: center;
-    margin: 0 33px;
+    margin: 0 20px;
 }
 
 .time-count_text {
