@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+.travel-form {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    flex-direction: column;
+}
+@media (min-width: 801px) {
+    
+    .travel-form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}
+.travelimage {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.lets-travel {
+    background-color: rgba(255, 255, 255, 0.09);
+    padding: 15px;
+    margin: 20px;
+    align-items: center;
+}
+.customer-heading-travel {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Dosis, sans-serif;
+    text-align: center;
+    margin-bottom: 0.1em;
+    }
+.customer-dots-travel {
+    color: white;
+    list-style-type: square;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 0.1em;
+    }
+    .customer-text-travel {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 0.7em;
+    }
+#cust-contacts {
+    color: #6e6e6e;
+    font-size: 19px;
+    font-weight: 500;     
+    font-family: Dosis, sans-serif;
+    text-align:  center;
+   }
+
+/* Form */
+@media (min-width: 610px) {
+    
+     .customers-control {
+         
+         display: flex;
+         justify-content: center;       
+         text-align: center;
+         flex: 1;
+     }
+    
+}   
+.custform {
+    padding: 25px 30px;
+    }
+.customers-control {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.09);
+        border-color: rgba(255, 255, 255, 0.09);
+        margin-bottom: 20px;                    
+        padding-bottom: 15px;
+        position: relative;
+}        
+
+.customers-control input { 
+  background-color: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.09); 
+  display: block;
+  width: 100%;  
+  font-size: 14px;
+  font-weight: 400;
+  color: #242222;
+  font-family: Roboto, sans-serif;
+}
+
+.customers-control input:focus {
+  outline: 0;
+}
+
+.customers-control.success {
+  border-color: var(--success-color);
+}
+
+.customers-control.error {
+  border-color: #f50a0a;
+  }
+
+.customers-control small {
+  color: #f50a0a;
+  position: absolute;
+  padding-left: 12px;
+  top: 30px;
+  bottom: 5px;
+  left: 0;
+  visibility: hidden;
+}
+
+.customers-control.error small {
+  visibility: visible;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  }
+@media (min-width: 610px) {
+    
+     .custform button {
+         
+         display: flex;
+         justify-content: space-around;         
+         align-items: center;
+         flex: 1;
+     } 
+}   
+
+.custform button {
+    color: #ffffff;
+    background-color: #f1c324;    
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    text-align: center; 
+    padding: 10px;    
+    width: 100%;
+    }
+.customers-button :hover {    
+    background-color: rgb(13, 172, 231);
+    cursor: pointer;
+}
